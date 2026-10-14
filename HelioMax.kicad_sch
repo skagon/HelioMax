@@ -1,0 +1,8767 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b77f32e9-31fd-4736-83b7-42549ca943df")
+	(paper "A3")
+	(title_block
+		(date "29 sep 2012")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x07"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x07_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ErgoDOX-rescue:DIODE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "DIODE"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field42" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DIODE_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DIODE_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ErgoDOX-rescue:SWITCH_DIODE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SWITCH_DIODE"
+				(at 0 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field42" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SWITCH_DIODE_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SWITCH_DIODE_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ErgoDOX-rescue:SWITCH_PUSH"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SWITCH_PUSH"
+				(at 0 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field42" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SWITCH_PUSH_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SWITCH_PUSH_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 78.74 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "001706fd-9d18-4201-af1a-227e9c6fa5ec")
+	)
+	(junction
+		(at 149.86 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043bd223-9183-4823-8f1b-a7aa0c77db20")
+	)
+	(junction
+		(at 96.52 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07ba4fc0-fd2d-484a-b180-8a95435895cd")
+	)
+	(junction
+		(at 149.86 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19a25753-7243-4d58-9a89-9fd1ff3fa57a")
+	)
+	(junction
+		(at 111.76 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22d594cf-6705-41fb-a10b-88a9b95e53df")
+	)
+	(junction
+		(at 78.74 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2328300e-149f-423d-99fc-7afbb14e0c77")
+	)
+	(junction
+		(at 114.3 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2487f79c-afc5-4d20-a8e0-7d1a80f2d5a8")
+	)
+	(junction
+		(at 58.42 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25a1be71-2fc9-41d1-87c6-cf301ca548e7")
+	)
+	(junction
+		(at 60.96 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28fb9bcb-f8ef-444f-a36d-c2a16f3c7fb2")
+	)
+	(junction
+		(at 132.08 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "291ab6b3-2d97-441b-813e-dea735012831")
+	)
+	(junction
+		(at 40.64 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29363cbf-c84c-4dc1-bc3c-d7d6c1be9984")
+	)
+	(junction
+		(at 149.86 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29f42bbb-ad35-4551-b0cc-996cfce73848")
+	)
+	(junction
+		(at 43.18 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3373cdb2-1d6b-4d82-b00c-5e540c453467")
+	)
+	(junction
+		(at 96.52 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "384f11be-f0ae-4b3f-9ea7-3d3e50ed7c8c")
+	)
+	(junction
+		(at 58.42 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "388eaec1-d34f-4594-8e8a-6ad7dd62e81d")
+	)
+	(junction
+		(at 60.96 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b61f282-64cb-404e-ae11-a8a600bd664a")
+	)
+	(junction
+		(at 114.3 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eb7a257-b178-45e0-822e-46f388d24986")
+	)
+	(junction
+		(at 60.96 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f4f541a-d72e-4b44-ac53-af99493bb229")
+	)
+	(junction
+		(at 114.3 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44fe133a-12ca-4fed-a7e0-49500cf08120")
+	)
+	(junction
+		(at 76.2 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c8549a9-e3ff-4a77-999d-e8e384ace39d")
+	)
+	(junction
+		(at 93.98 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd592e2-4e72-46bf-982f-e823283de5c3")
+	)
+	(junction
+		(at 111.76 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f7a39b6-e554-4216-90ba-200b833c52c2")
+	)
+	(junction
+		(at 132.08 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50463700-af87-47e4-9af7-216930d231b2")
+	)
+	(junction
+		(at 111.76 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55eec8c7-6bc1-436c-b904-c61d2875bf16")
+	)
+	(junction
+		(at 132.08 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a93b2d1-a770-4ce7-9e6e-b65a42121e4c")
+	)
+	(junction
+		(at 114.3 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b100abe-ffd7-4c26-95b9-58ff3509f8eb")
+	)
+	(junction
+		(at 60.96 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f7abe6d-629b-4297-9e08-3421e22b0530")
+	)
+	(junction
+		(at 58.42 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd425d0-3f99-49d4-9a7d-e1459d6a7cb7")
+	)
+	(junction
+		(at 132.08 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "667d8fe3-211d-467c-8cce-b336d7a8483b")
+	)
+	(junction
+		(at 76.2 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67511dde-26df-4bb3-a83d-cdb74db9c97c")
+	)
+	(junction
+		(at 127 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76089a5b-a9df-499d-ac9d-422b7b212afe")
+	)
+	(junction
+		(at 76.2 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7920fa89-2060-4b5d-9f3e-8d8377dec4f5")
+	)
+	(junction
+		(at 111.76 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ba4f8a6-30c8-4b3e-aad9-4635f586a139")
+	)
+	(junction
+		(at 96.52 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d1f0d31-8feb-47fa-ae1b-a27203a9d14a")
+	)
+	(junction
+		(at 40.64 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7daacd58-7d05-4380-919a-c5b7019977cb")
+	)
+	(junction
+		(at 58.42 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e093b44-07ba-452e-b8bc-296104b1a995")
+	)
+	(junction
+		(at 78.74 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e241e32-329e-4ff6-887e-f036a3a7e11e")
+	)
+	(junction
+		(at 111.76 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e597150-8243-4405-b742-2e037eaac903")
+	)
+	(junction
+		(at 96.52 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e5b4c65-7845-4d29-a43d-56b801bce8e6")
+	)
+	(junction
+		(at 60.96 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85354611-efee-428f-af77-d7ab9b03d1f0")
+	)
+	(junction
+		(at 93.98 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8725cc38-046e-4c90-9ba8-9c332e32e10d")
+	)
+	(junction
+		(at 93.98 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88aeb09e-5c43-486e-a22f-50e91255c5ac")
+	)
+	(junction
+		(at 114.3 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b0665bb-7c5a-48c8-bdb1-0e3ca05394c2")
+	)
+	(junction
+		(at 76.2 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e31203b-1081-4e15-abdb-e6529bd2291f")
+	)
+	(junction
+		(at 43.18 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9502de34-4165-45c5-b916-05bdba858804")
+	)
+	(junction
+		(at 78.74 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96b37e1c-c6b0-45a9-994b-11d15c88dd26")
+	)
+	(junction
+		(at 111.76 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c31881b-af04-4439-84b2-d196a27cac8b")
+	)
+	(junction
+		(at 43.18 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3337e4c-86f5-49ec-88de-47bfaaf322b8")
+	)
+	(junction
+		(at 129.54 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5541563-ef2a-41dc-9402-859415e7705b")
+	)
+	(junction
+		(at 129.54 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a57c00c5-dbae-47a4-ac14-988691837000")
+	)
+	(junction
+		(at 43.18 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a643c27e-0a5b-4a04-94c3-a2c2bba8b432")
+	)
+	(junction
+		(at 78.74 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e2627c-7815-4add-8cd2-cef22520e9b4")
+	)
+	(junction
+		(at 114.3 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab13e1ce-58ec-457f-95f8-2b3154589a39")
+	)
+	(junction
+		(at 93.98 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ace5f25c-1ab8-472e-8cf6-db4c7277b367")
+	)
+	(junction
+		(at 76.2 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b066a997-ddff-493f-ac22-ebee3ff108b9")
+	)
+	(junction
+		(at 76.2 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b563ffb0-ed6e-4344-9c00-e0ddfe89422a")
+	)
+	(junction
+		(at 40.64 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bafbfa49-1ac1-49f0-8617-0c62e3e1a738")
+	)
+	(junction
+		(at 149.86 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd721364-f794-45aa-8701-290eaa9d5f14")
+	)
+	(junction
+		(at 93.98 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bea2f225-315d-4098-b36d-c41652b387d8")
+	)
+	(junction
+		(at 40.64 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c175ef85-2b14-422d-b60a-f064755185b1")
+	)
+	(junction
+		(at 58.42 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3058083-f9f4-4684-ad6e-216929c434b1")
+	)
+	(junction
+		(at 78.74 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c44c54cc-9198-4a8a-a7b1-a00a68b8ab9a")
+	)
+	(junction
+		(at 93.98 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c46053c5-64ad-4b23-8b05-bafeb8b189b3")
+	)
+	(junction
+		(at 76.2 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c66e92a2-df52-45dd-a328-63eb479c470d")
+	)
+	(junction
+		(at 129.54 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c85cf02e-65d8-4596-8f61-4bfba7c8fa5f")
+	)
+	(junction
+		(at 58.42 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9409133-9b07-4328-a5d7-ae69fa9c6fe6")
+	)
+	(junction
+		(at 109.22 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e4b0d6-6ce8-4576-af10-c4dacc46b9ef")
+	)
+	(junction
+		(at 96.52 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f04a13-898e-40e9-8a49-7dc69777c812")
+	)
+	(junction
+		(at 58.42 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce35fce4-123b-4a44-8910-13bab973f32c")
+	)
+	(junction
+		(at 43.18 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d397dc19-8164-42f9-959d-16d9f173a453")
+	)
+	(junction
+		(at 40.64 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6012ed9-bc4e-4e18-8bd6-de837f77c5db")
+	)
+	(junction
+		(at 129.54 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dab9522e-3705-4ad2-a59a-8f6361b66348")
+	)
+	(junction
+		(at 149.86 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd30dc93-b6f4-48fa-8928-1189ef90e8af")
+	)
+	(junction
+		(at 111.76 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e692cff0-4338-4314-8b30-36a07759120f")
+	)
+	(junction
+		(at 132.08 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e1cc35-20e2-4d68-984a-2213fbd69040")
+	)
+	(junction
+		(at 60.96 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e967a772-e862-4f3f-ae01-c567b36410ee")
+	)
+	(junction
+		(at 129.54 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edf1fab2-9550-4c4b-b3c7-deb951085db1")
+	)
+	(junction
+		(at 96.52 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2b16e37-33e7-4688-af5c-3281737640f3")
+	)
+	(junction
+		(at 93.98 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f36a5456-2653-4647-831c-156fa80bdcdb")
+	)
+	(junction
+		(at 40.64 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3da81c8-0437-468a-a8a9-b119c6cb90b8")
+	)
+	(junction
+		(at 129.54 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcd52fcd-20c9-41e5-9835-e43deb4b3100")
+	)
+	(junction
+		(at 132.08 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "febbb5bd-c243-4e13-954f-ab76e8774c47")
+	)
+	(wire
+		(pts
+			(xy 147.32 147.32) (xy 147.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01555f19-80eb-48ee-8b8c-be19d4a31416")
+	)
+	(wire
+		(pts
+			(xy 142.24 205.74) (xy 144.78 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b03dce-391d-4661-a9ac-1eea86a5380b")
+	)
+	(wire
+		(pts
+			(xy 111.76 180.34) (xy 111.76 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04947437-f58b-4018-9df0-a7a333604fea")
+	)
+	(wire
+		(pts
+			(xy 53.34 156.21) (xy 55.88 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0566e902-d154-42d5-ab46-acc54d348984")
+	)
+	(wire
+		(pts
+			(xy 106.68 189.23) (xy 109.22 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0618cad3-893f-4919-959a-f8c094d3a2b4")
+	)
+	(wire
+		(pts
+			(xy 142.24 222.25) (xy 144.78 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a63a5c2-3208-40be-880e-a78d7af7d76f")
+	)
+	(wire
+		(pts
+			(xy 76.2 147.32) (xy 76.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb4c484-536f-4d8f-bfcf-d140ec93332a")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 96.52 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca34053-e986-4c82-93a8-3fc6a9d95258")
+	)
+	(wire
+		(pts
+			(xy 88.9 156.21) (xy 91.44 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0d2723-2cf0-4a37-8885-b08afefc6679")
+	)
+	(wire
+		(pts
+			(xy 88.9 205.74) (xy 91.44 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f31dbac-f59b-4558-9950-0033a0943777")
+	)
+	(wire
+		(pts
+			(xy 58.42 219.71) (xy 58.42 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f854540-4d31-4495-9ec3-254929a05291")
+	)
+	(wire
+		(pts
+			(xy 144.78 222.25) (xy 144.78 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104d77f9-836c-430f-8bf9-cb488f1b9d1c")
+	)
+	(wire
+		(pts
+			(xy 124.46 205.74) (xy 127 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129f7012-a94e-47a4-8d7c-62a67a0ff274")
+	)
+	(wire
+		(pts
+			(xy 71.12 205.74) (xy 73.66 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c68287-21a8-43e2-8583-34f57de82ff0")
+	)
+	(wire
+		(pts
+			(xy 111.76 129.54) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149e6a50-825f-441a-bd50-1ce6e9dde924")
+	)
+	(wire
+		(pts
+			(xy 55.88 205.74) (xy 55.88 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153b500f-8623-4a75-844a-f272af4d9114")
+	)
+	(wire
+		(pts
+			(xy 76.2 163.83) (xy 76.2 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16444642-0e8d-481f-968b-8e869b56082d")
+	)
+	(wire
+		(pts
+			(xy 144.78 156.21) (xy 144.78 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18039b4c-9c9b-4e36-a964-5b97a95b158b")
+	)
+	(wire
+		(pts
+			(xy 127 138.43) (xy 127 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18136294-4491-4c9b-9ce1-744280d02277")
+	)
+	(wire
+		(pts
+			(xy 109.22 156.21) (xy 109.22 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b4f30b-2988-45d3-8bf3-48fbabfa5fa2")
+	)
+	(wire
+		(pts
+			(xy 40.64 203.2) (xy 40.64 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19164c33-4a76-496f-9093-324b21aa7e85")
+	)
+	(wire
+		(pts
+			(xy 58.42 229.87) (xy 58.42 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b24215-4dbb-4a72-8638-d616f60dbc7f")
+	)
+	(wire
+		(pts
+			(xy 88.9 138.43) (xy 91.44 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a29e3de-9d14-41e2-9728-0ab66f7f7cd9")
+	)
+	(wire
+		(pts
+			(xy 40.64 153.67) (xy 40.64 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce07b5d-4216-469a-ad6f-80eebfe8ee4d")
+	)
+	(wire
+		(pts
+			(xy 55.88 238.76) (xy 55.88 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214a9ea1-94ad-401b-b421-fc701e3f4cea")
+	)
+	(wire
+		(pts
+			(xy 106.68 205.74) (xy 109.22 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f0ab25-8adc-4df4-b8ca-b53a249df6b9")
+	)
+	(wire
+		(pts
+			(xy 127 156.21) (xy 127 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e7c8fc-6067-4aa6-af6d-4225f054d44e")
+	)
+	(wire
+		(pts
+			(xy 127 189.23) (xy 127 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a54df50-47a1-4991-9fd2-5619df040333")
+	)
+	(wire
+		(pts
+			(xy 124.46 156.21) (xy 127 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3068d9-ed81-407b-9f33-c8389f92c767")
+	)
+	(wire
+		(pts
+			(xy 160.02 222.25) (xy 162.56 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5675ea-83d0-4c0e-bea6-4c789983e9b4")
+	)
+	(wire
+		(pts
+			(xy 160.02 156.21) (xy 162.56 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6075ac-95dc-448e-873f-01f00acb737f")
+	)
+	(wire
+		(pts
+			(xy 53.34 205.74) (xy 55.88 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ffddb1-c101-4f97-99fa-7801a2d38375")
+	)
+	(wire
+		(pts
+			(xy 73.66 172.72) (xy 73.66 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f34ceb-5bb0-4b4e-b749-ab2c810d82e2")
+	)
+	(wire
+		(pts
+			(xy 40.64 170.18) (xy 40.64 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3625a768-7509-40b3-800d-ee4b79347be6")
+	)
+	(wire
+		(pts
+			(xy 73.66 219.71) (xy 73.66 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d74f4d-acc7-45d6-aa2d-0e4fba7f0fc9")
+	)
+	(wire
+		(pts
+			(xy 144.78 138.43) (xy 144.78 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3939eab8-de4f-45be-a1af-f7b8c8948501")
+	)
+	(wire
+		(pts
+			(xy 129.54 180.34) (xy 129.54 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e49cd6-fbaf-41e2-a2e7-d1a283b8952c")
+	)
+	(wire
+		(pts
+			(xy 88.9 222.25) (xy 91.44 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c428a80-6b35-4bbc-9916-fcc4d3821d73")
+	)
+	(wire
+		(pts
+			(xy 53.34 238.76) (xy 55.88 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f855fd9-3f71-4d54-92f5-45a7071f182f")
+	)
+	(wire
+		(pts
+			(xy 73.66 138.43) (xy 73.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbe1944-dfb4-4209-acd7-f9e47be40928")
+	)
+	(wire
+		(pts
+			(xy 129.54 229.87) (xy 129.54 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c0b6af-072d-4916-bf6c-05dc4b239eb9")
+	)
+	(wire
+		(pts
+			(xy 88.9 238.76) (xy 91.44 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f35647-583d-4607-a5cc-f0895a72b96f")
+	)
+	(wire
+		(pts
+			(xy 73.66 189.23) (xy 73.66 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a60f97b-90fb-484c-a06c-a1001bc01a6b")
+	)
+	(wire
+		(pts
+			(xy 96.52 156.21) (xy 96.52 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae5ea58-adb4-48d1-a4cb-e3f34205146d")
+	)
+	(wire
+		(pts
+			(xy 58.42 180.34) (xy 58.42 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c12103c-611b-47ee-b257-d198e3f8a0c0")
+	)
+	(wire
+		(pts
+			(xy 53.34 138.43) (xy 55.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d202663-9add-4ecf-83ca-1292abcfe41b")
+	)
+	(wire
+		(pts
+			(xy 40.64 236.22) (xy 40.64 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522196c6-cffa-4467-a577-7cceaf90f48a")
+	)
+	(wire
+		(pts
+			(xy 129.54 129.54) (xy 129.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e29a59-bf30-4260-8772-02414d38ac4c")
+	)
+	(wire
+		(pts
+			(xy 127 205.74) (xy 127 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f970d8-d336-4090-8b44-97de36cfe3b8")
+	)
+	(wire
+		(pts
+			(xy 93.98 129.54) (xy 93.98 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a19e00-f25c-4028-a80a-b6c86c1e0a22")
+	)
+	(wire
+		(pts
+			(xy 78.74 156.21) (xy 78.74 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4b4367-c769-4c79-8f30-fd45d28d51c4")
+	)
+	(wire
+		(pts
+			(xy 73.66 238.76) (xy 73.66 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baefe6e-35bb-4551-913a-d9dbc9b7b6e5")
+	)
+	(wire
+		(pts
+			(xy 162.56 222.25) (xy 162.56 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e214c99-67eb-4f75-be7f-6a38eef6363d")
+	)
+	(wire
+		(pts
+			(xy 147.32 213.36) (xy 147.32 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb54597-c0ca-43c7-bea9-aa559bf505e8")
+	)
+	(wire
+		(pts
+			(xy 93.98 147.32) (xy 93.98 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b776e0-a967-4eac-95d3-e4b7ae5407ef")
+	)
+	(wire
+		(pts
+			(xy 91.44 186.69) (xy 91.44 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6178987c-d5b4-45c2-9726-b66612dc92da")
+	)
+	(wire
+		(pts
+			(xy 76.2 129.54) (xy 76.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65073e3a-f421-4c14-9ef1-f0c67ec51610")
+	)
+	(wire
+		(pts
+			(xy 43.18 138.43) (xy 43.18 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6615e14d-5a87-4c0c-b725-aa7ce0238bb0")
+	)
+	(wire
+		(pts
+			(xy 73.66 205.74) (xy 73.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66da1399-709d-4fe6-a9c3-215361eccd20")
+	)
+	(wire
+		(pts
+			(xy 149.86 156.21) (xy 149.86 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679e2d30-695f-481a-a660-22f388475a74")
+	)
+	(wire
+		(pts
+			(xy 76.2 229.87) (xy 76.2 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685e23e1-0de1-44e9-a08f-268c49750a0f")
+	)
+	(wire
+		(pts
+			(xy 127 234.95) (xy 127 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b75edc0-f86c-4a10-b6ed-705c9bedd06e")
+	)
+	(wire
+		(pts
+			(xy 71.12 172.72) (xy 73.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c077ad4-0057-47dc-93c4-cbc4a5d07b9d")
+	)
+	(wire
+		(pts
+			(xy 142.24 138.43) (xy 144.78 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2396de-74ce-446d-9ccc-01df9b9c6d86")
+	)
+	(wire
+		(pts
+			(xy 147.32 196.85) (xy 147.32 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6d8dd9-e933-4ebe-bd1f-aac0eb6ca62c")
+	)
+	(wire
+		(pts
+			(xy 142.24 156.21) (xy 144.78 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe8c912-763e-42a5-9635-fee790402623")
+	)
+	(wire
+		(pts
+			(xy 91.44 205.74) (xy 91.44 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729e559b-2615-4fb3-9041-75e1742beb80")
+	)
+	(wire
+		(pts
+			(xy 111.76 196.85) (xy 111.76 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745266a1-ac50-4913-b8e4-6c7719d72479")
+	)
+	(wire
+		(pts
+			(xy 124.46 172.72) (xy 127 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b446e5-b325-48a5-af45-8ab9f675eb7c")
+	)
+	(wire
+		(pts
+			(xy 149.86 138.43) (xy 149.86 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75dbde07-fa30-4759-ae68-1ba1e097a282")
+	)
+	(wire
+		(pts
+			(xy 33.02 129.54) (xy 147.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7632130c-60b8-4be3-a37a-343da85df8ed")
+	)
+	(wire
+		(pts
+			(xy 91.44 138.43) (xy 91.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ae9c82-3d2a-49cf-bcaa-0a5de2c24183")
+	)
+	(wire
+		(pts
+			(xy 55.88 138.43) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f174f8-c07e-4da3-8591-ea16926090be")
+	)
+	(wire
+		(pts
+			(xy 109.22 234.95) (xy 109.22 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7923ac53-0cc2-496b-bb8a-50ad597339b8")
+	)
+	(wire
+		(pts
+			(xy 73.66 223.52) (xy 71.12 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a823a5e-fec0-40b1-a0f8-5ddf366a9a23")
+	)
+	(wire
+		(pts
+			(xy 114.3 156.21) (xy 114.3 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bea3db0-04a7-4377-b2ea-017ffce3431a")
+	)
+	(wire
+		(pts
+			(xy 88.9 172.72) (xy 91.44 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c150527-656e-4a26-867b-e7ed11d8cf12")
+	)
+	(wire
+		(pts
+			(xy 58.42 129.54) (xy 58.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c507c60-0176-4f18-99c0-3c0d87175167")
+	)
+	(wire
+		(pts
+			(xy 109.22 138.43) (xy 109.22 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5bd743-5681-42a9-8d32-cf7a029b61cf")
+	)
+	(wire
+		(pts
+			(xy 162.56 172.72) (xy 162.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9b12cf-44fe-4d01-8722-5f7f6f37dd52")
+	)
+	(wire
+		(pts
+			(xy 106.68 222.25) (xy 109.22 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b4c183-b2b2-43f9-bcfe-f4d408b711cc")
+	)
+	(wire
+		(pts
+			(xy 160.02 138.43) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849c704a-9d81-49e0-bf30-1c95c47555ea")
+	)
+	(wire
+		(pts
+			(xy 93.98 196.85) (xy 93.98 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d1b113-1019-4be5-9595-9d9f1670a313")
+	)
+	(wire
+		(pts
+			(xy 109.22 222.25) (xy 109.22 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd2f700-1e56-4460-b086-020ea43a0732")
+	)
+	(wire
+		(pts
+			(xy 71.12 238.76) (xy 73.66 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c00824b-a265-483c-be44-42a957612716")
+	)
+	(wire
+		(pts
+			(xy 93.98 213.36) (xy 93.98 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d472795-5011-4a75-8246-6e24a0be9fef")
+	)
+	(wire
+		(pts
+			(xy 91.44 189.23) (xy 88.9 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e37d93b-47f1-4b1d-9e9a-aedde01f7522")
+	)
+	(wire
+		(pts
+			(xy 162.56 156.21) (xy 162.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef19cca-3453-4f6f-9dd7-3aa2bd097658")
+	)
+	(wire
+		(pts
+			(xy 106.68 138.43) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944dec98-9076-4577-b846-a42f4c46e48d")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.32) (xy 111.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946f21b8-8bb9-412d-a8c0-2755257f3ff5")
+	)
+	(wire
+		(pts
+			(xy 33.02 196.85) (xy 147.32 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949f26f0-e2f2-4ba7-adbd-b9a58e856888")
+	)
+	(wire
+		(pts
+			(xy 78.74 138.43) (xy 78.74 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968227f8-c7b7-4e80-87bd-f883f392606f")
+	)
+	(wire
+		(pts
+			(xy 60.96 138.43) (xy 60.96 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ddcd99-0d0e-4789-847d-d937c73a3e5d")
+	)
+	(wire
+		(pts
+			(xy 109.22 205.74) (xy 109.22 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b0fabb-201a-4b79-85e2-fd4ce2f5b11e")
+	)
+	(wire
+		(pts
+			(xy 129.54 196.85) (xy 129.54 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5eb3f0-6fef-4352-9783-95825322a680")
+	)
+	(wire
+		(pts
+			(xy 142.24 172.72) (xy 144.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aef76bd-8e3c-4a2e-8ca4-262b03ed465f")
+	)
+	(wire
+		(pts
+			(xy 40.64 219.71) (xy 40.64 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1ebb7d-0429-4959-b3fa-c4fee49737c3")
+	)
+	(wire
+		(pts
+			(xy 43.18 156.21) (xy 43.18 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9e9df9-c68b-4a53-8ea6-930b2f7edd06")
+	)
+	(wire
+		(pts
+			(xy 127 172.72) (xy 127 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e530814-6933-44c3-9d50-de7ff929ae2d")
+	)
+	(wire
+		(pts
+			(xy 114.3 138.43) (xy 114.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc835b5-fbf6-406a-9674-56ea2dcc1f19")
+	)
+	(wire
+		(pts
+			(xy 91.44 238.76) (xy 91.44 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff86365-f7ee-486a-bba6-9441855442a4")
+	)
+	(wire
+		(pts
+			(xy 93.98 163.83) (xy 93.98 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e6728f-8e5b-4160-8acd-513a690be7ca")
+	)
+	(wire
+		(pts
+			(xy 106.68 172.72) (xy 109.22 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14b458e-a3f2-4e8a-af8f-6feaf15abe14")
+	)
+	(wire
+		(pts
+			(xy 129.54 147.32) (xy 129.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18b8314-1ccf-4042-80b5-12988c495865")
+	)
+	(wire
+		(pts
+			(xy 111.76 229.87) (xy 111.76 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3144083-f8cd-4b67-b889-4370555104d5")
+	)
+	(wire
+		(pts
+			(xy 127 238.76) (xy 124.46 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d499d2-61c1-4840-bcde-92067c805d15")
+	)
+	(wire
+		(pts
+			(xy 132.08 156.21) (xy 132.08 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fd8fac-12b5-4c25-a73c-a9b1b0b46e1c")
+	)
+	(wire
+		(pts
+			(xy 58.42 147.32) (xy 58.42 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cb9d4d-7604-4609-ac13-44ed95688bc7")
+	)
+	(wire
+		(pts
+			(xy 55.88 172.72) (xy 55.88 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8108e1b-b4cd-4074-8bd8-8ee27aae0cb3")
+	)
+	(wire
+		(pts
+			(xy 127 222.25) (xy 127 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f02d19-7abd-438e-85f5-bd7b42bfda1f")
+	)
+	(wire
+		(pts
+			(xy 162.56 189.23) (xy 162.56 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae1ad50-7772-49d2-9dbe-5ca3950f878b")
+	)
+	(wire
+		(pts
+			(xy 33.02 163.83) (xy 147.32 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab84b4eb-de6f-42ad-902e-c2eb29ef0e5d")
+	)
+	(wire
+		(pts
+			(xy 33.02 180.34) (xy 147.32 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba9b4e2-d461-4c02-abe2-3fb1098a7d18")
+	)
+	(wire
+		(pts
+			(xy 76.2 196.85) (xy 76.2 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adef0d28-dd3b-46df-b4a6-1f763eb6c563")
+	)
+	(wire
+		(pts
+			(xy 106.68 156.21) (xy 109.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee09d75-c325-4ec1-919a-787a5dc89265")
+	)
+	(wire
+		(pts
+			(xy 71.12 156.21) (xy 73.66 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a6803c-1d55-4bb1-afc1-5d3a7563fefa")
+	)
+	(wire
+		(pts
+			(xy 129.54 213.36) (xy 129.54 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6efd96d-3944-4683-94e5-cbfde6aeabb2")
+	)
+	(wire
+		(pts
+			(xy 53.34 172.72) (xy 55.88 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80509a6-bed0-4992-9951-6dcf5e2613e4")
+	)
+	(wire
+		(pts
+			(xy 60.96 156.21) (xy 60.96 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd6c963-e12c-4a00-8a4e-4d7bfc2369aa")
+	)
+	(wire
+		(pts
+			(xy 160.02 189.23) (xy 162.56 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c627175c-8b50-4c7b-b437-fef862c5f5b0")
+	)
+	(wire
+		(pts
+			(xy 73.66 156.21) (xy 73.66 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7c2059-ae70-4721-99eb-765bad1ac6a6")
+	)
+	(wire
+		(pts
+			(xy 40.64 135.89) (xy 40.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdeaf8fe-6ca0-4b6d-a6f8-1207467d7d7e")
+	)
+	(wire
+		(pts
+			(xy 91.44 172.72) (xy 91.44 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf8d95d-89d3-451e-8f42-a853ccf66eab")
+	)
+	(wire
+		(pts
+			(xy 93.98 229.87) (xy 93.98 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce69a112-239d-47ff-bb23-5bba4aa81349")
+	)
+	(wire
+		(pts
+			(xy 144.78 238.76) (xy 144.78 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2e1e48-20bd-4700-9e1c-48377f94cfdc")
+	)
+	(wire
+		(pts
+			(xy 71.12 189.23) (xy 73.66 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb4daef-d317-431f-808e-5ffcab1aa7eb")
+	)
+	(wire
+		(pts
+			(xy 58.42 163.83) (xy 58.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d124b346-8836-4087-a706-fb801b4b0127")
+	)
+	(wire
+		(pts
+			(xy 162.56 138.43) (xy 162.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25a1e65-771a-4bc2-a1fb-2919fc504ae1")
+	)
+	(wire
+		(pts
+			(xy 111.76 213.36) (xy 111.76 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a5d26b-2133-4ed5-b6e2-5a6b5bdba4f1")
+	)
+	(wire
+		(pts
+			(xy 144.78 205.74) (xy 144.78 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61f2a9b-9903-4f00-b5fb-9316d6e135f5")
+	)
+	(wire
+		(pts
+			(xy 33.02 229.87) (xy 129.54 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72b4300-28ee-4ca6-9b77-ba5a45af3f44")
+	)
+	(wire
+		(pts
+			(xy 55.88 223.52) (xy 53.34 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76232b4-4be9-45e1-9f9b-ec0b9a840fd3")
+	)
+	(wire
+		(pts
+			(xy 76.2 213.36) (xy 76.2 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d793a58b-3938-4558-bf23-3a1bd69d6d45")
+	)
+	(wire
+		(pts
+			(xy 33.02 147.32) (xy 147.32 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbee4b1-406a-484b-824b-0f3a31321cdd")
+	)
+	(wire
+		(pts
+			(xy 160.02 205.74) (xy 162.56 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca946b9-045d-47b9-9063-649607eec8d2")
+	)
+	(wire
+		(pts
+			(xy 109.22 238.76) (xy 106.68 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda7d268-e7c3-439d-9cb4-c8ee3e3b807c")
+	)
+	(wire
+		(pts
+			(xy 109.22 172.72) (xy 109.22 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df42bbd4-5d4d-4459-8c51-3cfe06ae0fe7")
+	)
+	(wire
+		(pts
+			(xy 147.32 129.54) (xy 147.32 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df69a1e8-8557-48bb-a287-28871e2fe884")
+	)
+	(wire
+		(pts
+			(xy 55.88 219.71) (xy 55.88 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0be2a0c-316c-4fbf-9236-24cffd31787b")
+	)
+	(wire
+		(pts
+			(xy 132.08 138.43) (xy 132.08 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20ab186-4797-4a96-9329-b03244bacf39")
+	)
+	(wire
+		(pts
+			(xy 91.44 156.21) (xy 91.44 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4684ff3-d0f5-4160-a386-cf191aed737f")
+	)
+	(wire
+		(pts
+			(xy 142.24 238.76) (xy 144.78 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e497ce1d-28b9-441e-8c89-a3273cb385a0")
+	)
+	(wire
+		(pts
+			(xy 76.2 180.34) (xy 76.2 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c6c1d6-5801-4513-950d-9b7722857072")
+	)
+	(wire
+		(pts
+			(xy 33.02 213.36) (xy 147.32 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6483352-1887-4519-a200-d3cda57ae911")
+	)
+	(wire
+		(pts
+			(xy 144.78 189.23) (xy 144.78 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ba8eef-ab4d-4489-bda0-42e28bf791fb")
+	)
+	(wire
+		(pts
+			(xy 124.46 138.43) (xy 127 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f24ea0-01e3-4c41-ae29-5d0eed7b25de")
+	)
+	(wire
+		(pts
+			(xy 91.44 222.25) (xy 91.44 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec109360-ff4a-40cc-9f83-aca0af5b145b")
+	)
+	(wire
+		(pts
+			(xy 162.56 205.74) (xy 162.56 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed08fcdf-a397-42b6-bca9-e67fd6787609")
+	)
+	(wire
+		(pts
+			(xy 147.32 180.34) (xy 147.32 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef92c4b8-a6f2-424f-8524-c19d9ad640f5")
+	)
+	(wire
+		(pts
+			(xy 124.46 222.25) (xy 127 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3470f29-71ce-4108-b17f-f79a169b3aba")
+	)
+	(wire
+		(pts
+			(xy 109.22 189.23) (xy 109.22 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3caf7d6-ffb0-4b85-a102-2866bec1607a")
+	)
+	(wire
+		(pts
+			(xy 144.78 172.72) (xy 144.78 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42ed294-34b0-4885-90d2-e9bbb3fe250d")
+	)
+	(wire
+		(pts
+			(xy 160.02 172.72) (xy 162.56 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43a4b8e-abfd-420f-9c01-020857e9d305")
+	)
+	(wire
+		(pts
+			(xy 142.24 189.23) (xy 144.78 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5dc4d60-85fe-4c40-84a8-b91a44a8f3ab")
+	)
+	(wire
+		(pts
+			(xy 147.32 163.83) (xy 147.32 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69ea570-e83c-47d4-a44f-6065259c9098")
+	)
+	(wire
+		(pts
+			(xy 124.46 189.23) (xy 127 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f752bbee-3cd8-43ff-9a75-2e4ce4308565")
+	)
+	(wire
+		(pts
+			(xy 58.42 196.85) (xy 58.42 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77aee94-b524-4bda-a2d6-7d5c39f09979")
+	)
+	(wire
+		(pts
+			(xy 111.76 163.83) (xy 111.76 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b4a525-dab6-4895-8061-7325500d1c46")
+	)
+	(wire
+		(pts
+			(xy 93.98 180.34) (xy 93.98 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb31b292-7d86-4a9c-be6c-511c19ce6bf4")
+	)
+	(wire
+		(pts
+			(xy 71.12 138.43) (xy 73.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb963269-163f-4fa8-98c8-628e875bcd19")
+	)
+	(wire
+		(pts
+			(xy 55.88 156.21) (xy 55.88 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc011d6c-b952-431b-91bb-33c753f634c0")
+	)
+	(wire
+		(pts
+			(xy 129.54 163.83) (xy 129.54 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7443fe-ad50-47ae-b048-c285d521295c")
+	)
+	(label "COL1"
+		(at 87.63 125.73 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "02cec651-a800-4353-b90b-644ae4d8da92")
+	)
+	(label "ROW0"
+		(at 58.42 110.49 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "0deded58-d954-4834-a6cd-c56c60ec0b60")
+	)
+	(label "ROW1"
+		(at 158.75 111.76 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "13d006ed-5278-476b-8943-fc16716a7a46")
+	)
+	(label "COL2"
+		(at 87.63 123.19 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "154d323b-bf59-4c84-b56b-51f21b053b35")
+	)
+	(label "COL2"
+		(at 58.42 123.19 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "175d2347-27c2-48cf-bbeb-07aaa20e7e9c")
+	)
+	(label "COL2"
+		(at 187.96 151.13 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "178f484c-38da-48d6-80d6-c5dc7aa955ae")
+	)
+	(label "ROW0"
+		(at 158.75 109.22 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "2150ab7d-5776-4f8a-b6ce-144931f73509")
+	)
+	(label "COL1"
+		(at 217.17 153.67 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "21ba2732-d353-4b93-85cf-ea55855272e8")
+	)
+	(label "COL1"
+		(at 129.54 110.49 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "227555a3-d84e-4c3f-a603-df4a76131f91")
+	)
+	(label "COL6"
+		(at 43.18 250.19 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "25288ca0-e5ff-4a50-8f09-7631f1e8810e")
+	)
+	(label "COL5"
+		(at 129.54 120.65 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "25d8ca8f-adb3-4afb-92ec-17b468e923c3")
+	)
+	(label "COL2"
+		(at 129.54 113.03 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "26c46392-53f1-486a-af91-18e42a2605f8")
+	)
+	(label "COL1"
+		(at 187.96 153.67 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "30a27fef-85e9-406d-96e7-633a479bb574")
+	)
+	(label "COL2"
+		(at 217.17 151.13 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "37d2d2da-cb2e-497f-a098-e6ce9e63298b")
+	)
+	(label "ROW2"
+		(at 158.75 114.3 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "389b40c1-794e-4687-a7df-4c332b6e3b3b")
+	)
+	(label "COL3"
+		(at 87.63 120.65 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "3951cfa0-9679-43c3-96dc-7be9ae159eb7")
+	)
+	(label "ROW6"
+		(at 33.02 129.54 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f99ad4a-c1b8-4301-b5b6-73d085545022")
+	)
+	(label "COL2"
+		(at 114.3 250.19 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "48a16768-7933-43bf-93d2-6d2fa95df9a4")
+	)
+	(label "COL4"
+		(at 129.54 118.11 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b5c1834-eb5e-48de-979e-cd7c32db8443")
+	)
+	(label "COL5"
+		(at 60.96 250.19 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "510f1412-ce9e-4308-93e1-cc96405ceb51")
+	)
+	(label "COL5"
+		(at 87.63 115.57 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "55334c2a-d086-48e8-8dd6-105ba70fb385")
+	)
+	(label "ROW6"
+		(at 187.96 138.43 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "584d84e5-d000-487a-aacf-6a75e17c05cd")
+	)
+	(label "ROW4"
+		(at 33.02 163.83 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "594bbd53-4983-4fb8-8c00-e11458be2006")
+	)
+	(label "ROW5"
+		(at 33.02 147.32 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "61b559b6-ecfe-4d22-89d6-367b5cd2adaa")
+	)
+	(label "COL3"
+		(at 187.96 148.59 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "650c90e0-129d-437e-af4c-164c6655a439")
+	)
+	(label "COL0"
+		(at 217.17 156.21 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "68d0d17b-3cf3-458c-a0c4-9a0fad2850d5")
+	)
+	(label "COL1"
+		(at 132.08 250.19 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a8e1c80-ec35-45d6-ab6c-a064e4df9bed")
+	)
+	(label "COL0"
+		(at 187.96 156.21 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d76c5bc-9c94-42f9-8777-37cec7083aac")
+	)
+	(label "ROW1"
+		(at 33.02 213.36 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "6df3a405-ba70-46e9-94df-5424f8415a86")
+	)
+	(label "ROW6"
+		(at 217.17 138.43 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "78421309-6a4c-495c-920d-64a4e6ab45ed")
+	)
+	(label "COL5"
+		(at 217.17 143.51 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a21a55d-afda-4d20-b2ca-df30ba451cd2")
+	)
+	(label "COL3"
+		(at 129.54 115.57 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "7addcf43-0d57-4533-a55d-8414e6e460ab")
+	)
+	(label "COL6"
+		(at 187.96 140.97 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d868d45-87b9-4680-b746-77664a66df84")
+	)
+	(label "COL4"
+		(at 187.96 146.05 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fab8cc5-1553-45e2-a001-050eb3686ef9")
+	)
+	(label "COL6"
+		(at 217.17 140.97 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fdd4f78-8a98-4732-ab9d-df89d56bdb2c")
+	)
+	(label "COL4"
+		(at 217.17 146.05 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "804d2fcd-b68d-40b6-9931-655af2e9eca0")
+	)
+	(label "ROW6"
+		(at 158.75 124.46 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "83efc43e-97bf-4b00-8484-8ab0d70f4272")
+	)
+	(label "COL6"
+		(at 58.42 113.03 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "865e77bb-81aa-490c-8861-6d8b8a8675eb")
+	)
+	(label "COL3"
+		(at 58.42 120.65 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ec9c56f-c259-4353-83d3-d1b6744dc3fc")
+	)
+	(label "ROW2"
+		(at 33.02 196.85 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "91ca9c64-1c7e-49d3-9838-5fd7c7cfbff0")
+	)
+	(label "ROW5"
+		(at 158.75 121.92 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "972cea18-56b1-4f43-bccd-9697e816d5d4")
+	)
+	(label "COL4"
+		(at 58.42 118.11 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9551c2b-1794-4fbb-b97d-e7c145aafa40")
+	)
+	(label "COL4"
+		(at 78.74 250.19 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab0a2b14-6509-42a5-8d3c-361d567da13e")
+	)
+	(label "ROW4"
+		(at 158.75 119.38 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "be44e71d-dbcb-46f4-9e39-9bab8734456a")
+	)
+	(label "COL6"
+		(at 129.54 123.19 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "bebc9b5f-c5bc-4171-8674-1ff8707fd065")
+	)
+	(label "COL3"
+		(at 217.17 148.59 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "c63b9b68-2b46-41e7-bd23-4aa10a6ab0d7")
+	)
+	(label "COL6"
+		(at 87.63 113.03 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8efc9be-f36b-4d37-a0ae-938e4ba5aac5")
+	)
+	(label "ROW0"
+		(at 33.02 229.87 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca74ca78-de8e-418a-b973-fa7a54d6be78")
+	)
+	(label "COL5"
+		(at 187.96 143.51 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfe95d5c-c4ed-4315-aa26-71cb79d0b9a9")
+	)
+	(label "COL0"
+		(at 149.86 250.19 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3289501-bf4d-4d9b-877c-d80de211f4e3")
+	)
+	(label "COL4"
+		(at 87.63 118.11 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6c8b99d-3237-4d95-9ed5-57708d0d890c")
+	)
+	(label "COL3"
+		(at 96.52 250.19 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e83f545e-eee9-4d38-a430-e2ecf17f3d8d")
+	)
+	(label "ROW0"
+		(at 87.63 110.49 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e87f15c7-8e0a-4d7f-9333-ff60785393c7")
+	)
+	(label "ROW3"
+		(at 33.02 180.34 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9eff439-3809-4eb5-836b-656682a9cf1c")
+	)
+	(label "COL1"
+		(at 58.42 125.73 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1f586ac-cf66-4f52-9bc7-fdf52c19638b")
+	)
+	(label "COL5"
+		(at 58.42 115.57 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3934008-50fe-4efa-8e90-4629c03b7a49")
+	)
+	(label "ROW3"
+		(at 158.75 116.84 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "f80e4485-aa67-49b3-b0c3-fa82c09a971a")
+	)
+	(label "COL0"
+		(at 129.54 107.95 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "fac0a872-b075-4ad3-a703-f74f309df5d6")
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 101.6 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dedd")
+		(property "Reference" "SW0:10"
+			(at 105.41 233.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW0:3"
+			(at 101.6 238.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 101.6 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "674fc485-4367-42a4-b58e-bb9dbab3d318")
+		)
+		(pin "4"
+			(uuid "ffe3d63c-b09a-4d93-b490-8647ae241ae2")
+		)
+		(pin "3"
+			(uuid "46606859-54db-4545-88d1-3dcb1caed57f")
+		)
+		(pin "0"
+			(uuid "5e0feccb-9b32-488b-8cd8-e5563174867f")
+		)
+		(pin "1"
+			(uuid "04b5c9a2-04da-4d09-b543-9b9e2a44f95c")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW0:10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 48.26 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df15")
+		(property "Reference" "SW4:7"
+			(at 52.07 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW4:6"
+			(at 48.26 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 48.26 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f483c274-5264-4df4-91e8-7e3a7aaccf55")
+		)
+		(pin "2"
+			(uuid "1fc3d799-0e18-45ed-a45c-de83b761aa40")
+		)
+		(pin "4"
+			(uuid "bafa72d5-8238-4bd7-8e35-f19c9a2431ed")
+		)
+		(pin "1"
+			(uuid "0ebb239b-5463-4922-b063-28f631d1e289")
+		)
+		(pin "0"
+			(uuid "0d4c9ae2-2b43-4abf-aa0e-72d15ad64ffa")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW4:7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 66.04 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df18")
+		(property "Reference" "SW4:8"
+			(at 69.85 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW4:5"
+			(at 66.04 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 66.04 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3b3e3977-592b-442e-8be2-7469e7bceea1")
+		)
+		(pin "0"
+			(uuid "50c4cb9b-58b7-4130-8e71-4ff0d277cfe1")
+		)
+		(pin "4"
+			(uuid "c1fc9b40-c2cc-4513-8fc3-4e38f933fc99")
+		)
+		(pin "2"
+			(uuid "02aaae9f-65b5-4e14-b8ad-af64edabae71")
+		)
+		(pin "1"
+			(uuid "84c4bbde-79b5-4dbc-b37d-a657eb1fd0ee")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW4:8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 137.16 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df2c")
+		(property "Reference" "SW4:12"
+			(at 140.97 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW4:1"
+			(at 137.16 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd082fe0-9707-4ab2-9536-0798fa2693b1")
+		)
+		(pin "0"
+			(uuid "0034626e-d1db-4615-9207-76895df54247")
+		)
+		(pin "4"
+			(uuid "3d4e36d0-62eb-4e0d-b1b8-07054ea1ebc5")
+		)
+		(pin "1"
+			(uuid "a335ec3f-4c15-4a10-86e3-5de14419d730")
+		)
+		(pin "3"
+			(uuid "4cebd16e-d53a-44e1-bde2-e3668202c8b6")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW4:12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 119.38 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df2d")
+		(property "Reference" "SW4:11"
+			(at 123.19 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW4:2"
+			(at 119.38 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 119.38 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a678b334-119e-436b-b83d-381d2115659d")
+		)
+		(pin "3"
+			(uuid "e930d6b5-5919-42f4-92be-b81cb12e39b7")
+		)
+		(pin "1"
+			(uuid "2afc2027-f92d-4aae-a032-008fcaa89bb9")
+		)
+		(pin "0"
+			(uuid "1eab2874-491d-4851-9a57-96f394e4d2cc")
+		)
+		(pin "4"
+			(uuid "92659f6d-3154-4596-8eed-093cfe579454")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW4:11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 101.6 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df2f")
+		(property "Reference" "SW4:10"
+			(at 105.41 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW4:3"
+			(at 101.6 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 101.6 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "bda20d77-d126-4125-b175-bef27ffac7de")
+		)
+		(pin "1"
+			(uuid "ae9972b9-a04b-4604-a557-855d70400e0d")
+		)
+		(pin "2"
+			(uuid "a805f344-f400-484a-8f05-cb80481d0cee")
+		)
+		(pin "0"
+			(uuid "20968d97-b400-42e2-bda8-ae77316e08aa")
+		)
+		(pin "3"
+			(uuid "bb044775-b7b4-4af4-9e94-25d393135968")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW4:10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 83.82 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df30")
+		(property "Reference" "SW4:9"
+			(at 87.63 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW4:4"
+			(at 83.82 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 83.82 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "0e821e32-296f-4f7b-8cb4-675af29bfc17")
+		)
+		(pin "2"
+			(uuid "27458ac3-ec08-42cd-9afc-905e1bc58807")
+		)
+		(pin "4"
+			(uuid "afb673b1-d05c-48eb-be72-779764c75681")
+		)
+		(pin "3"
+			(uuid "5fda98b9-7238-4fe9-a584-6b1c2ba040ac")
+		)
+		(pin "1"
+			(uuid "fdb8feb2-dbc2-4897-a6c6-ecb322316183")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW4:9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 154.94 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df34")
+		(property "Reference" "SW4:13"
+			(at 158.75 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW4:0"
+			(at 154.94 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 154.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ec8e24a-9f69-454f-acfc-2fe5fa9c87b3")
+		)
+		(pin "1"
+			(uuid "f9534f35-659e-4786-a8fc-e17aec16f5ba")
+		)
+		(pin "0"
+			(uuid "9b83e0ab-8052-4932-8836-c80a89e18c3b")
+		)
+		(pin "3"
+			(uuid "cbfbd9ad-a5df-4947-b9a7-9dab93df9d84")
+		)
+		(pin "4"
+			(uuid "2fec53df-5a25-4773-a5be-55992be13092")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW4:13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 137.16 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df8d")
+		(property "Reference" "SW3:12"
+			(at 140.97 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW3:1"
+			(at 137.16 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f90ad4d-8766-45ce-80b7-ecb298b52425")
+		)
+		(pin "2"
+			(uuid "398ff4eb-7007-4f9a-9919-31db879c833c")
+		)
+		(pin "4"
+			(uuid "eb707ec3-705e-4a0c-ba6c-73b8b7bdeca7")
+		)
+		(pin "0"
+			(uuid "273f0cbc-a363-4cb0-9b34-9a3c278e5bce")
+		)
+		(pin "3"
+			(uuid "6be282ad-dfc2-46d5-9652-3e928194031b")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW3:12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 119.38 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df8f")
+		(property "Reference" "SW3:11"
+			(at 123.19 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW3:2"
+			(at 119.38 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 119.38 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75aedfbc-3aa5-47be-8bcf-40abcf12d656")
+		)
+		(pin "2"
+			(uuid "34e1d40f-e950-4972-b361-2ede4065e003")
+		)
+		(pin "4"
+			(uuid "27a943b3-5e2d-4756-aa26-7c62b6484ec0")
+		)
+		(pin "0"
+			(uuid "ba66f12d-9c96-45a9-b01b-79ae5b4a7738")
+		)
+		(pin "3"
+			(uuid "157cb831-eee8-42a0-aa06-3cdeaa637711")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW3:11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 101.6 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df90")
+		(property "Reference" "SW3:10"
+			(at 105.41 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW3:3"
+			(at 101.6 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 101.6 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "8aae9618-7992-4df9-9f3b-397ea180c671")
+		)
+		(pin "3"
+			(uuid "4411b356-1bba-4c3a-bb26-ebc400e9d19e")
+		)
+		(pin "1"
+			(uuid "cb571ecf-f835-4f9c-8633-60ae081e7f81")
+		)
+		(pin "0"
+			(uuid "03d785d6-8507-4623-b9cb-a8474d9149e6")
+		)
+		(pin "2"
+			(uuid "a4134bd7-1361-4de1-8f23-b1d674ebf444")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW3:10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 83.82 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df91")
+		(property "Reference" "SW3:9"
+			(at 87.63 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW3:4"
+			(at 83.82 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 83.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f59a0e7e-47c4-45ba-81f4-b5858a1d45a9")
+		)
+		(pin "2"
+			(uuid "3878b14e-eff4-4922-b662-ae280d455813")
+		)
+		(pin "4"
+			(uuid "d0a89096-8930-432a-8bb1-b2858ab351a2")
+		)
+		(pin "0"
+			(uuid "346096e5-5580-44e0-b6f4-d35a01337700")
+		)
+		(pin "1"
+			(uuid "b21a65f6-0c50-4e95-a78d-f01c68ea6420")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW3:9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 66.04 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df92")
+		(property "Reference" "SW3:8"
+			(at 69.85 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW3:5"
+			(at 66.04 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 66.04 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fe03a71b-66cb-46bd-90b4-6d17c9108e7b")
+		)
+		(pin "0"
+			(uuid "dd10129f-a0a9-4c2c-8716-61b111f7a15e")
+		)
+		(pin "3"
+			(uuid "80f13861-e465-419e-a2cb-1656db6cee07")
+		)
+		(pin "1"
+			(uuid "ac446a39-8255-4746-8ff1-80e6642ae932")
+		)
+		(pin "4"
+			(uuid "e11abdd7-0145-428f-8fc3-23c23638b866")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW3:8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 83.82 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df9b")
+		(property "Reference" "SW1:9"
+			(at 87.63 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW1:4"
+			(at 83.82 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 83.82 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4708daeb-8817-4e1c-a04b-afc4e201b9f6")
+		)
+		(pin "3"
+			(uuid "ffc8e417-f705-4091-adef-b7a56c000646")
+		)
+		(pin "0"
+			(uuid "90115db8-6826-44c9-a565-b7900edf9b6a")
+		)
+		(pin "1"
+			(uuid "96d5b324-fb79-48fb-88c1-16fb0def8de6")
+		)
+		(pin "2"
+			(uuid "c2433c2e-6abf-4072-8a54-fadb89459869")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW1:9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 101.6 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df9c")
+		(property "Reference" "SW1:10"
+			(at 105.41 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW1:3"
+			(at 101.6 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 101.6 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "a4f061cb-7d8c-41cf-b683-236bbc9478d2")
+		)
+		(pin "3"
+			(uuid "08979794-e7ee-48ad-b221-6729f7b6871b")
+		)
+		(pin "4"
+			(uuid "83a63a82-b72a-4681-8c64-5f263abf213a")
+		)
+		(pin "2"
+			(uuid "f89c1d0e-213b-4029-ae46-0920dfa6a7e8")
+		)
+		(pin "1"
+			(uuid "b90d9653-138e-485c-a4a7-977553a72872")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW1:10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 137.16 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92df9f")
+		(property "Reference" "SW1:12"
+			(at 140.97 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW1:1"
+			(at 137.16 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 137.16 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e7087d84-df60-4d1c-aff9-a899c05444cf")
+		)
+		(pin "3"
+			(uuid "c0c1ffeb-3c59-479e-91cf-f91f2ddf1752")
+		)
+		(pin "1"
+			(uuid "e7878af9-c3e3-40f2-a319-59384fe9e3e9")
+		)
+		(pin "0"
+			(uuid "91cee82e-93ef-4d06-befc-649accc36a0f")
+		)
+		(pin "2"
+			(uuid "3a72f998-35da-44f7-b656-3e315a539f30")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW1:12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 137.16 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfa0")
+		(property "Reference" "SW2:12"
+			(at 140.97 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW2:1"
+			(at 137.16 205.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 137.16 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "4cf25124-b185-46c3-aa8e-233a453f1899")
+		)
+		(pin "3"
+			(uuid "e9e961b0-f8e8-4a78-85ef-c52e11d4f1fb")
+		)
+		(pin "4"
+			(uuid "fd7dee83-67b5-4771-8903-b3a68732604d")
+		)
+		(pin "1"
+			(uuid "4f5bfc6e-71ab-498a-9259-f81e16fc6c66")
+		)
+		(pin "2"
+			(uuid "1304362b-95f6-4514-a5c7-a15cf0093eda")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW2:12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 119.38 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfa2")
+		(property "Reference" "SW2:11"
+			(at 123.19 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW2:2"
+			(at 119.38 205.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 119.38 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce67ff03-ce52-4409-ac10-24ae77c32dc0")
+		)
+		(pin "4"
+			(uuid "095f888f-a2e1-40f2-9f5e-2e857afec4b9")
+		)
+		(pin "0"
+			(uuid "a998c40b-77f9-4f71-b706-64a6b64c1560")
+		)
+		(pin "3"
+			(uuid "2328a7aa-37e5-4a60-b253-b057d8b021e1")
+		)
+		(pin "2"
+			(uuid "1e49f6b7-d72b-4de7-98e8-296dd149f4af")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW2:11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 101.6 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfa3")
+		(property "Reference" "SW2:10"
+			(at 105.41 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW2:3"
+			(at 101.6 205.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 101.6 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "210b1611-be29-49ad-ace7-18164ce74cb1")
+		)
+		(pin "3"
+			(uuid "97079afe-b522-402a-b790-6144a8da9d6b")
+		)
+		(pin "2"
+			(uuid "d440e039-5019-4245-a535-8b5ca5e7f054")
+		)
+		(pin "4"
+			(uuid "3b9d042f-51bf-43d3-808b-f0000e2bd9e6")
+		)
+		(pin "1"
+			(uuid "c6cc12f6-71ce-4cbc-99ea-15fe4f17d072")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW2:10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 83.82 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfa4")
+		(property "Reference" "SW2:9"
+			(at 87.63 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW2:4"
+			(at 83.82 205.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 83.82 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8a724837-7eaf-4bc7-9580-24940486716b")
+		)
+		(pin "2"
+			(uuid "fd19fb0c-6116-4c4e-8d27-daf1fd34f2ed")
+		)
+		(pin "4"
+			(uuid "2e45ca5f-7eaf-4573-84a0-db8c45ebde00")
+		)
+		(pin "1"
+			(uuid "91754ba1-ba44-499b-b5dc-bd50c46c0030")
+		)
+		(pin "0"
+			(uuid "da1695fa-2027-49e9-aa98-a9338fcc5455")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW2:9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 66.04 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfa5")
+		(property "Reference" "SW2:8"
+			(at 69.85 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW2:5"
+			(at 66.04 205.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 66.04 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0a3cd15-4e0e-4ad5-b7bf-7cb04ea04ca5")
+		)
+		(pin "0"
+			(uuid "fae99790-8786-440d-b25a-9b7cca5b463a")
+		)
+		(pin "3"
+			(uuid "511c0928-e33b-4fa1-bb61-4b7f901fe55c")
+		)
+		(pin "4"
+			(uuid "d5ddb913-c4c9-405d-800e-bb5b81ff56f4")
+		)
+		(pin "2"
+			(uuid "5dbcf66b-fb80-4fb0-ab25-c9995d58a82a")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW2:8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 48.26 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfa6")
+		(property "Reference" "SW2:7"
+			(at 52.07 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW2:6"
+			(at 48.26 205.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 48.26 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b31c291f-ef9b-4713-ae62-a89090e1e1d0")
+		)
+		(pin "4"
+			(uuid "9ba6266d-522a-439b-b497-69660af338fe")
+		)
+		(pin "0"
+			(uuid "21591218-7a89-4d30-b185-3ab3c627532f")
+		)
+		(pin "2"
+			(uuid "b319a0ab-c29d-4dad-b916-de20d9b36794")
+		)
+		(pin "3"
+			(uuid "47a269a1-f18e-4dc4-9dec-d673760455db")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW2:7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 154.94 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfad")
+		(property "Reference" "SW3:13"
+			(at 158.75 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW3:0"
+			(at 154.94 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 154.94 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "27c7ec8b-1f24-4b6f-921f-55a73eb9c208")
+		)
+		(pin "0"
+			(uuid "75b08e2f-5ad7-4f4a-8fde-bf0946631b7c")
+		)
+		(pin "2"
+			(uuid "145cb18a-fa44-4c66-b16f-a6c113cf18ae")
+		)
+		(pin "3"
+			(uuid "cbaf25ea-9efe-41f6-896c-9cd65dfcc123")
+		)
+		(pin "1"
+			(uuid "8b421a5e-8ba4-46b7-b817-377e3e457e23")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW3:13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 154.94 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfaf")
+		(property "Reference" "SW1:13"
+			(at 158.75 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW1:0"
+			(at 154.94 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 154.94 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eeff7dba-1d34-4df0-8f75-c89358467180")
+		)
+		(pin "0"
+			(uuid "62ed9652-5a8f-42df-a1dd-fdfa4fa94ca1")
+		)
+		(pin "3"
+			(uuid "8c955c1c-7637-4a31-9e9f-f1db30907db0")
+		)
+		(pin "2"
+			(uuid "cabd0b52-7a60-4125-a7b6-32eba10e480a")
+		)
+		(pin "4"
+			(uuid "3880fd22-ed3f-4628-a746-29d86e9a35fb")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW1:13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 154.94 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004d92dfbb")
+		(property "Reference" "SW2:13"
+			(at 158.75 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW2:0"
+			(at 154.94 205.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 154.94 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "aaf9c5a6-76d4-4169-93d0-92e02b0dcb65")
+		)
+		(pin "0"
+			(uuid "d673a33d-05be-48f8-9480-e248bbbe2705")
+		)
+		(pin "2"
+			(uuid "bee6b53c-a0b9-4d2d-b67c-88acdf5c5772")
+		)
+		(pin "1"
+			(uuid "887a1349-224f-4e1a-9d28-d75cd75c9f61")
+		)
+		(pin "4"
+			(uuid "80cd3ae9-f69a-4a61-af98-7e32975044ff")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW2:13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 119.38 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004eab15bc")
+		(property "Reference" "SW0:11"
+			(at 123.19 233.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW0:2"
+			(at 119.38 238.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 119.38 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "85cab48c-fa97-4ef3-8e8f-5b0d11d38b07")
+		)
+		(pin "4"
+			(uuid "7be65429-bc60-4d4b-8c05-2e885fa29152")
+		)
+		(pin "2"
+			(uuid "c1eaffa0-e4ae-4f93-a809-8181d5f5934f")
+		)
+		(pin "1"
+			(uuid "6326d662-af4b-4a87-92a0-57974630879c")
+		)
+		(pin "3"
+			(uuid "6facef07-0155-47ac-a26a-588810232bba")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW0:11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 137.16 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004eab15c0")
+		(property "Reference" "SW0:12"
+			(at 140.97 233.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW0:1"
+			(at 137.16 238.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 137.16 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "40e3732c-07cf-4b68-91db-c6138773b56f")
+		)
+		(pin "3"
+			(uuid "98c18b6a-7382-4dd2-ad3a-1df5ada6f8ec")
+		)
+		(pin "2"
+			(uuid "50d17357-659a-4e97-8d07-728b89908610")
+		)
+		(pin "1"
+			(uuid "061dc469-3d93-4b2f-8bdb-cf126ce2c6c3")
+		)
+		(pin "0"
+			(uuid "e47be473-6820-4d8e-86b1-c635e0779231")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW0:12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 48.26 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004eb1ddab")
+		(property "Reference" "SW0:7"
+			(at 52.07 233.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW0:6"
+			(at 48.26 238.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 48.26 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "34b6be5e-9208-4815-9097-2a359063a2ce")
+		)
+		(pin "4"
+			(uuid "e645d487-6cb6-42cd-82f0-21a10c3abc63")
+		)
+		(pin "2"
+			(uuid "7dfa3948-4a25-4999-8ae1-d5bda9a69618")
+		)
+		(pin "0"
+			(uuid "e70d0c17-27e4-4085-a49c-1b4defb7c8c6")
+		)
+		(pin "1"
+			(uuid "6de7f643-f0f6-4fc6-b184-c062aacddc3c")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW0:7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 66.04 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004eb1ddeb")
+		(property "Reference" "SW0:8"
+			(at 69.85 233.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW0:5"
+			(at 66.04 238.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 66.04 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2d3ac37-95d9-47a1-a3b6-5668ecd929e9")
+		)
+		(pin "1"
+			(uuid "3c23a48e-575e-4549-addd-7dffd56477ca")
+		)
+		(pin "0"
+			(uuid "26e569d6-8143-40a5-bd4f-a1d496b1f858")
+		)
+		(pin "4"
+			(uuid "b746ac4c-ddd8-45fe-ae5c-42287842a98d")
+		)
+		(pin "3"
+			(uuid "3e693658-cb09-4232-be1e-23a96d005b2b")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW0:8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 83.82 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004eb1de18")
+		(property "Reference" "SW0:9"
+			(at 87.63 233.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW0:4"
+			(at 83.82 238.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 83.82 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "aafa4767-5957-44ea-8d5b-f837aed9caf8")
+		)
+		(pin "0"
+			(uuid "4c593b63-d4c8-4af8-9893-306d22ea091c")
+		)
+		(pin "2"
+			(uuid "d61b9334-6872-4386-bc70-e0c74123af32")
+		)
+		(pin "3"
+			(uuid "5873e02f-44d1-42e2-b908-608e2a0f8d67")
+		)
+		(pin "1"
+			(uuid "55f85602-9e4b-4b08-8c7f-ff9ae40f212f")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW0:9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 119.38 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f3fedce")
+		(property "Reference" "SW1:11"
+			(at 123.19 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW1:2"
+			(at 119.38 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 119.38 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c876a84-da80-4b2b-84d4-112a2a4715f9")
+		)
+		(pin "3"
+			(uuid "fe4ff1e6-5d36-4370-80e1-26635ad44aef")
+		)
+		(pin "2"
+			(uuid "9c9e217b-08dd-4dbe-a805-f8bfcccdf0c3")
+		)
+		(pin "0"
+			(uuid "c6636100-e30d-4674-9af1-94bcfd791f1d")
+		)
+		(pin "4"
+			(uuid "5e62139e-d8aa-4cf2-914e-1215d7ec1050")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW1:11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 154.94 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffd34d4")
+		(property "Reference" "SW5:13"
+			(at 158.75 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW5:0"
+			(at 154.94 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 154.94 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "e68bf73a-f475-43c8-8406-7a296709e796")
+		)
+		(pin "1"
+			(uuid "4c98ede7-34e2-41e5-a2de-bd4bf95fdca7")
+		)
+		(pin "2"
+			(uuid "9fdee5bb-ec69-45b2-b5d9-c2daa78f79a1")
+		)
+		(pin "3"
+			(uuid "c2adb3ac-f79a-4aeb-8677-b6e989f24f32")
+		)
+		(pin "4"
+			(uuid "b68cbfd1-c005-44e2-8a25-caae8a8568d6")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW5:13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 83.82 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffd34da")
+		(property "Reference" "SW5:9"
+			(at 87.63 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW5:4"
+			(at 83.82 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 83.82 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "737d0d7e-fc0e-421b-830f-48fb84631186")
+		)
+		(pin "3"
+			(uuid "31703e73-aae8-4967-84f2-5f9fbbd83fc6")
+		)
+		(pin "1"
+			(uuid "7f4fa963-0581-4d16-906f-3bbee26cd241")
+		)
+		(pin "2"
+			(uuid "81775279-f174-403c-9432-fbed3759705a")
+		)
+		(pin "0"
+			(uuid "2b5d89bf-d05b-49e3-8b04-d3af96e9e96d")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW5:9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 101.6 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffd34e0")
+		(property "Reference" "SW5:10"
+			(at 105.41 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW5:3"
+			(at 101.6 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4e3f7bca-553c-4201-8f96-47213c95ea11")
+		)
+		(pin "1"
+			(uuid "b37e6425-d49c-4b10-88b1-7f96d7e23290")
+		)
+		(pin "2"
+			(uuid "7fcd1524-d75d-42a0-b67c-d4365a589665")
+		)
+		(pin "0"
+			(uuid "59ebed3c-84cc-4206-a79d-af0ed4956482")
+		)
+		(pin "3"
+			(uuid "05378d85-6d2c-4ed4-9f18-8f1349d756f8")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW5:10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 119.38 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffd34e6")
+		(property "Reference" "SW5:11"
+			(at 123.19 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW5:2"
+			(at 119.38 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 119.38 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54736e7a-a360-4777-892a-cfa30ea4ec64")
+		)
+		(pin "2"
+			(uuid "ca9ca0f0-6a9a-45d2-88af-aaccb4c8c9cf")
+		)
+		(pin "3"
+			(uuid "0d2db0bc-6055-4f93-ac35-072d3dab9f72")
+		)
+		(pin "0"
+			(uuid "714938d2-54c9-4bf3-b103-a4d3c77d107c")
+		)
+		(pin "4"
+			(uuid "b9f5beaf-e009-4962-8e69-74f6e4d47f36")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW5:11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 137.16 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffd34ec")
+		(property "Reference" "SW5:12"
+			(at 140.97 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW5:1"
+			(at 137.16 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 137.16 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9beb9fb0-528f-43d0-bc82-2cfce0e5a144")
+		)
+		(pin "4"
+			(uuid "376cac01-3652-477f-bcd5-0528d88a6d6c")
+		)
+		(pin "0"
+			(uuid "cd36bf09-f5d4-444a-b242-925be8b39033")
+		)
+		(pin "1"
+			(uuid "89450b53-286c-4591-b7a0-47aa1b7470fb")
+		)
+		(pin "3"
+			(uuid "2d50513f-611b-45a3-a13f-c6eab836f55a")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW5:12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 66.04 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffd34f2")
+		(property "Reference" "SW5:8"
+			(at 69.85 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW5:5"
+			(at 66.04 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 66.04 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6dd580e9-d81b-4a5b-820c-e30fa2ac44d2")
+		)
+		(pin "4"
+			(uuid "6b97d608-9ab2-4d94-b985-275f46926952")
+		)
+		(pin "2"
+			(uuid "2efe547e-57b5-4c25-99e5-3b07d7e0084b")
+		)
+		(pin "1"
+			(uuid "fa2bb51f-656f-4087-ad05-e52b84b3079b")
+		)
+		(pin "0"
+			(uuid "c0161607-d321-47cc-a127-b3dd199d1b76")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW5:8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 48.26 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffd34f8")
+		(property "Reference" "SW5:7"
+			(at 52.07 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW5:6"
+			(at 48.26 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 48.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2cd01ab-44ba-45a4-85a9-aede69e17574")
+		)
+		(pin "0"
+			(uuid "91ca07be-d1f4-4b81-8d22-b2effe1e161d")
+		)
+		(pin "4"
+			(uuid "1091bb42-d6c7-4ab6-9077-cec58619a418")
+		)
+		(pin "1"
+			(uuid "51d0f12a-1144-4132-9d1f-b95f7652da75")
+		)
+		(pin "3"
+			(uuid "5e1f80c3-9256-4dad-8d89-e7165006535d")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW5:7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:DIODE")
+		(at 66.04 223.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffe1197")
+		(property "Reference" "D1:8"
+			(at 68.58 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 66.04 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "77a46fd4-1838-4822-bb42-cd061ed9cf57")
+		)
+		(pin "1"
+			(uuid "eb724465-dda8-49b0-88c5-96562d165543")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "D1:8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:DIODE")
+		(at 48.26 223.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffe119d")
+		(property "Reference" "D1:7"
+			(at 50.8 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 48.26 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8f461997-dfc1-43c1-8e44-184133339e19")
+		)
+		(pin "1"
+			(uuid "76fa7fcb-5ee4-4ff3-8fe5-aa6375bd741b")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "D1:7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_PUSH")
+		(at 66.04 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffe1283")
+		(property "Reference" "SX1:8"
+			(at 69.85 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SX1:5"
+			(at 66.04 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34995da2-62aa-4b4d-9adc-5aad3a2d6880")
+		)
+		(pin "1"
+			(uuid "07f1c96b-c636-4fe2-bed2-692077104d37")
+		)
+		(pin "0"
+			(uuid "cdf16bac-e366-40e4-a99e-55e18eb545c8")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SX1:8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_PUSH")
+		(at 48.26 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ffe1290")
+		(property "Reference" "SX1:7"
+			(at 52.07 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SX1:6"
+			(at 48.26 221.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a9afb90e-a941-4f65-9f9d-2581a2ad3a21")
+		)
+		(pin "1"
+			(uuid "82a4ebbe-4386-45ba-afef-c31489592021")
+		)
+		(pin "0"
+			(uuid "fc2a7f57-c57a-4058-b994-ee1fccff36ee")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SX1:7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 163.83 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11ec916c-519c-404b-9d67-57efcec9254b")
+		(property "Reference" "J5"
+			(at 166.37 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 166.37 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+			(at 163.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 163.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5da8496b-9e06-40ab-896c-13bc7c89b26f")
+		)
+		(pin "6"
+			(uuid "72915faf-d641-4ec8-82e5-9ce120ffc6d9")
+		)
+		(pin "2"
+			(uuid "2904e0c8-27d7-4da8-a987-61634ce911e7")
+		)
+		(pin "3"
+			(uuid "ceebcf30-e9c0-4345-bf35-a989bb7c6fe9")
+		)
+		(pin "5"
+			(uuid "9df03ce2-919e-4eb7-b10c-7c9bc16ab7d6")
+		)
+		(pin "4"
+			(uuid "c75df87a-dc0c-4eb6-83f0-c64e6d828017")
+		)
+		(pin "7"
+			(uuid "7aa2bfca-66b1-4e96-b448-2b51d5f47cb1")
+		)
+		(pin "8"
+			(uuid "8291116f-b3f8-476f-9976-c042d0747a92")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 63.5 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d48306-ac55-4a60-b996-97ab63913e9b")
+		(property "Reference" "J3"
+			(at 66.04 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 66.04 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 63.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 63.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d7816be-dd84-44a4-b7bc-b0334ea622d0")
+		)
+		(pin "6"
+			(uuid "97ca15fb-2507-4542-9546-dce0e54d4651")
+		)
+		(pin "2"
+			(uuid "f45b3c0e-a291-41a7-bcb7-4dfbfc3a1032")
+		)
+		(pin "3"
+			(uuid "543d8014-0794-41e5-aab6-cdb19166bd65")
+		)
+		(pin "5"
+			(uuid "11bdba42-16b2-46ab-ab4e-621762554758")
+		)
+		(pin "4"
+			(uuid "108078d0-1812-4de0-9c03-b9e5b3949895")
+		)
+		(pin "7"
+			(uuid "2fe41447-f89f-47b4-be55-bec209585a34")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 154.94 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ac9f327-85be-4374-98eb-eb09a4dad669")
+		(property "Reference" "SW6:13"
+			(at 158.75 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW6:0"
+			(at 154.94 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 154.94 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "52ee6937-c5ef-4ffd-8670-4d902ca9c216")
+		)
+		(pin "1"
+			(uuid "74f50de6-2e30-483f-896b-97d9bfd5b2fe")
+		)
+		(pin "2"
+			(uuid "b5339f5f-6fd8-495b-8e67-50c1735a4abc")
+		)
+		(pin "3"
+			(uuid "4d240cd3-3f55-4115-99cb-f7c02b28a10f")
+		)
+		(pin "4"
+			(uuid "0fb5346a-51a0-4ae0-ad0f-e075dee40e3a")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW6:13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 193.04 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c60c729-8857-4ac2-ad95-1f942f1eeadf")
+		(property "Reference" "J8"
+			(at 195.58 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 195.58 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 193.04 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 193.04 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 193.04 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3cbff51-753a-4e5e-9e0b-ed79ffd3fd5f")
+		)
+		(pin "6"
+			(uuid "1330696a-aecd-491a-988f-677c2720e2df")
+		)
+		(pin "2"
+			(uuid "403bde3d-0bc4-4716-b8e7-9d229685f4d9")
+		)
+		(pin "3"
+			(uuid "6d474bbf-5fb0-43a7-bb40-9eb8998c697e")
+		)
+		(pin "5"
+			(uuid "433e0edd-3d5d-42ba-a024-8303d03837db")
+		)
+		(pin "4"
+			(uuid "3efe851f-74b4-44c5-9394-17e93af0f254")
+		)
+		(pin "7"
+			(uuid "d3fd6a2e-8c53-4a7d-8787-0d184b55dfcd")
+		)
+		(pin "8"
+			(uuid "5263f911-deb2-4262-b7d2-f23f43d4ce30")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 48.26 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1cdf0f9d-f80e-4403-9059-cadf96811d77")
+		(property "Reference" "SW6:7"
+			(at 52.07 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW6:6"
+			(at 48.26 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 48.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7591160c-526c-41ec-8cd1-ea0a4acdd52f")
+		)
+		(pin "0"
+			(uuid "18f77879-2ab3-49e7-ad7b-a8bb26936d23")
+		)
+		(pin "4"
+			(uuid "e678fc60-6cf8-4274-8ab7-700e7b1e8abb")
+		)
+		(pin "1"
+			(uuid "16df161b-dd82-4279-a531-964da100e6ce")
+		)
+		(pin "3"
+			(uuid "7b5ddf56-d167-45e0-ad58-a57894d7533c")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW6:7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 101.6 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "308a3c49-5c64-461a-b1f5-7545ce5684fe")
+		(property "Reference" "SW6:10"
+			(at 105.41 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW6:3"
+			(at 101.6 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 101.6 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "8aec2ba0-747d-469a-9b83-ec2d4b42552f")
+		)
+		(pin "1"
+			(uuid "b63eee09-5834-4fa4-b3ea-891851f95af0")
+		)
+		(pin "2"
+			(uuid "1284edd3-5016-49cc-9ee9-59fa7a1d0c6b")
+		)
+		(pin "0"
+			(uuid "06e8ae45-8229-4bb8-a3d2-e93d8e016958")
+		)
+		(pin "3"
+			(uuid "ff88051c-be8e-4cec-8935-03a3bf48a3b6")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW6:10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 92.71 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "467d1eea-944a-4024-80ea-9f85c50b65e7")
+		(property "Reference" "J2"
+			(at 95.25 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 95.25 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 92.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 92.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12e84a5e-1783-4d08-bd7a-da3ff32d73fb")
+		)
+		(pin "6"
+			(uuid "5f69fcb1-4c63-4342-adbf-d6d2921176b2")
+		)
+		(pin "2"
+			(uuid "26cd0426-4ea3-4462-a7f7-ab24f093b007")
+		)
+		(pin "3"
+			(uuid "cc4fe578-843d-4535-8ef8-455974b30696")
+		)
+		(pin "5"
+			(uuid "1fd08d8b-d7bb-4d5a-94f8-515859e4d997")
+		)
+		(pin "4"
+			(uuid "b86f707a-720f-4922-88ba-97b469a1e18e")
+		)
+		(pin "7"
+			(uuid "c6461d18-f750-4db5-ac9b-7b7f73892e15")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 134.62 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6400eccc-1b53-4cbd-9783-ae6e695d0323")
+		(property "Reference" "J4"
+			(at 137.16 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 137.16 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+			(at 134.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 134.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5928c56-63e5-4624-96b0-f2f7166f902a")
+		)
+		(pin "6"
+			(uuid "1608bca2-b6b9-4015-82cc-5e08503272a9")
+		)
+		(pin "2"
+			(uuid "71d19d54-2420-494e-b7e1-b1ea37b96432")
+		)
+		(pin "3"
+			(uuid "3c3636dc-9bf7-49ca-892c-78f8c9e81b72")
+		)
+		(pin "5"
+			(uuid "239cd04f-1f09-44aa-bfff-9ac3148ff6e6")
+		)
+		(pin "4"
+			(uuid "4361270f-46a2-42dc-8a6f-b7c32354d19b")
+		)
+		(pin "7"
+			(uuid "cabb764f-4cd7-4967-89a8-44dc52a5a38d")
+		)
+		(pin "8"
+			(uuid "0294fd69-cff7-4bbb-ad5c-dac967e76ec7")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 66.04 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75ccca08-764f-445d-b5d2-fcd0b531e8b9")
+		(property "Reference" "SW6:8"
+			(at 69.85 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW6:5"
+			(at 66.04 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3fabac82-030b-4943-8e7e-1bdb8b54102c")
+		)
+		(pin "4"
+			(uuid "ca2c44b6-c441-4b1f-8bd9-46b56ae68ff7")
+		)
+		(pin "2"
+			(uuid "b5bf7f81-24dc-4ec7-8e65-27dcc5f0b846")
+		)
+		(pin "1"
+			(uuid "eb279bbf-76c1-42fc-bb55-0d4015fcf0bd")
+		)
+		(pin "0"
+			(uuid "1773f674-7ac9-47a1-972c-cb1db6f62e87")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW6:8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 119.38 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1b74a49-309e-415b-adbf-9b0a4cbeec5d")
+		(property "Reference" "SW6:11"
+			(at 123.19 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW6:2"
+			(at 119.38 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 119.38 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "158c9a65-a112-4ccb-92f3-bd579069dc14")
+		)
+		(pin "2"
+			(uuid "a3f094fb-00f6-471c-9f89-b4cd2a596385")
+		)
+		(pin "3"
+			(uuid "e2b32ba7-c4d5-4238-ad64-fa745b54f8a1")
+		)
+		(pin "0"
+			(uuid "88b551d8-2f7b-4162-a500-7e1fd71eb4d1")
+		)
+		(pin "4"
+			(uuid "0d6b19cf-182e-49d4-b277-b8ef4ff4aed3")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW6:11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 137.16 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df1005f2-3d86-4848-9e36-787a3fe28b22")
+		(property "Reference" "SW6:12"
+			(at 140.97 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW6:1"
+			(at 137.16 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 137.16 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6e381a7a-376a-42e8-92a6-305016091fbf")
+		)
+		(pin "4"
+			(uuid "452b6278-d9d7-4ea3-bcfb-5bd007b69016")
+		)
+		(pin "0"
+			(uuid "e9f00d07-a3e5-46c4-aefc-0b4067100254")
+		)
+		(pin "1"
+			(uuid "2256f780-350a-4121-94a3-df51476d9c5b")
+		)
+		(pin "3"
+			(uuid "1dafc464-3a40-4571-99ef-cd8d235445c5")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW6:12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ErgoDOX-rescue:SWITCH_DIODE")
+		(at 83.82 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea6e5507-328c-44fa-becc-2e6cd4ff0322")
+		(property "Reference" "SW6:9"
+			(at 87.63 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW6:4"
+			(at 83.82 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+			(at 83.82 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "b7219761-bed9-46f8-8d8f-583ee057c31a")
+		)
+		(pin "3"
+			(uuid "f95d75c8-e108-480b-a0e8-23a606cc022b")
+		)
+		(pin "1"
+			(uuid "20872b73-ec76-4f0b-8959-264301228c41")
+		)
+		(pin "2"
+			(uuid "af2dea66-2056-4d1f-ad11-04fc016d29e2")
+		)
+		(pin "0"
+			(uuid "29c7959c-b8f5-4914-894c-4977d760a42d")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "SW6:9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 222.25 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fffbb526-d80b-4f96-8aa6-998ea004bbc3")
+		(property "Reference" "J9"
+			(at 224.79 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 224.79 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 222.25 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 222.25 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 222.25 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3723b2d1-dcc2-4812-943e-0febc64ebeed")
+		)
+		(pin "6"
+			(uuid "d69f659f-0e7d-4fac-9e60-09774c0333cf")
+		)
+		(pin "2"
+			(uuid "f711bc00-35ac-4ade-add6-3e4c78a9d9e8")
+		)
+		(pin "3"
+			(uuid "3bdf9515-5670-4489-a0ed-2d2507081385")
+		)
+		(pin "5"
+			(uuid "1bc56040-840c-46fb-b641-143308340231")
+		)
+		(pin "4"
+			(uuid "41956bd4-5849-4248-8226-36a63d4e594e")
+		)
+		(pin "7"
+			(uuid "57ff6fa1-6724-4762-82a6-ec6ce1e9e7d6")
+		)
+		(pin "8"
+			(uuid "c7955aba-84a6-456b-b9f0-3153d051f948")
+		)
+		(instances
+			(project "HelioMax"
+				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
