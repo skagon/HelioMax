@@ -1,0 +1,9 @@
+# Ignore KiCad temporary and backup files
+*-bak
+*.bak
+*-rescue.lib
+rescue-backup/
+_autosave-*
+
+# Ignore manufacturing zip files or build outputs if you don't want them tracked
+*.zip

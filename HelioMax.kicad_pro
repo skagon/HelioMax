@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.0054,
-          "height": 5.0054,
-          "width": 5.0054
+          "drill": 3.9878,
+          "height": 3.9878,
+          "width": 3.9878
         },
         "silk_line_width": 0.6096,
         "silk_text_italic": false,
@@ -1024,13 +1024,13 @@
         "uuid": "b77f32e9-31fd-4736-83b7-42549ca943df"
       }
     ],
-    "used_designators": "J1-9,SW5:14-20",
+    "used_designators": "#PWR1-3,A1,J1-11,SW5:14-20",
     "variants": []
   },
   "sheets": [
     [
       "b77f32e9-31fd-4736-83b7-42549ca943df",
-      "ErgoDOX"
+      "HelioMax"
     ]
   ],
   "text_variables": {},
