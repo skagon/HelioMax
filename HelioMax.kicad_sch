@@ -783,149 +783,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ErgoDOX-rescue:DIODE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -2.54 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "DIODE"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Field42" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIODE_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DIODE_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ErgoDOX-rescue:SWITCH_DIODE"
 			(pin_numbers
 				(hide yes)
@@ -1140,167 +997,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ErgoDOX-rescue:SWITCH_PUSH"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 3.81 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SWITCH_PUSH"
-				(at 0 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Field42" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SWITCH_PUSH_0_1"
-				(rectangle
-					(start -4.318 1.27)
-					(end 4.318 1.524)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SWITCH_PUSH_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2728,12 +2424,6 @@
 		(uuid "3eb7a257-b178-45e0-822e-46f388d24986")
 	)
 	(junction
-		(at 60.96 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f4f541a-d72e-4b44-ac53-af99493bb229")
-	)
-	(junction
 		(at 114.3 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2906,12 +2596,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c31881b-af04-4439-84b2-d196a27cac8b")
-	)
-	(junction
-		(at 43.18 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3337e4c-86f5-49ec-88de-47bfaaf322b8")
 	)
 	(junction
 		(at 129.54 129.54)
@@ -6248,7 +5932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 101.6 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -6335,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 48.26 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6422,7 +6106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 66.04 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6509,7 +6193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 137.16 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6596,7 +6280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 119.38 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6683,7 +6367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 101.6 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6770,7 +6454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 83.82 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6857,7 +6541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 154.94 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6944,7 +6628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 137.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7031,7 +6715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 119.38 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7118,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 101.6 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7205,7 +6889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 83.82 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7292,7 +6976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 66.04 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7379,7 +7063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 83.82 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -7466,7 +7150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 101.6 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -7553,7 +7237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 137.16 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -7640,7 +7324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 137.16 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7727,7 +7411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 119.38 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7814,7 +7498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 101.6 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7901,7 +7585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 83.82 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7988,7 +7672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 66.04 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -8075,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 48.26 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -8162,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 154.94 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8249,7 +7933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 154.94 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -8336,7 +8020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 154.94 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -8423,7 +8107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 119.38 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8510,7 +8194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 137.16 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8597,7 +8281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 48.26 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8684,7 +8368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 66.04 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8771,7 +8455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 83.82 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 119.38 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -8945,7 +8629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 154.94 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9032,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 83.82 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9119,7 +8803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 101.6 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9206,7 +8890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 119.38 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9293,7 +8977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 137.16 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9380,7 +9064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 66.04 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9467,7 +9151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 48.26 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9518,328 +9202,6 @@
 			(project "HelioMax"
 				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
 					(reference "SW5:7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ErgoDOX-rescue:DIODE")
-		(at 66.04 223.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00004ffe1197")
-		(property "Reference" "D1:8"
-			(at 68.58 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 66.04 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "77a46fd4-1838-4822-bb42-cd061ed9cf57")
-		)
-		(pin "1"
-			(uuid "eb724465-dda8-49b0-88c5-96562d165543")
-		)
-		(instances
-			(project "HelioMax"
-				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
-					(reference "D1:8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ErgoDOX-rescue:DIODE")
-		(at 48.26 223.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00004ffe119d")
-		(property "Reference" "D1:7"
-			(at 50.8 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 48.26 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8f461997-dfc1-43c1-8e44-184133339e19")
-		)
-		(pin "1"
-			(uuid "76fa7fcb-5ee4-4ff3-8fe5-aa6375bd741b")
-		)
-		(instances
-			(project "HelioMax"
-				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
-					(reference "D1:7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ErgoDOX-rescue:SWITCH_PUSH")
-		(at 66.04 219.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00004ffe1283")
-		(property "Reference" "SX1:8"
-			(at 69.85 216.916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SX1:5"
-			(at 66.04 221.742 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "34995da2-62aa-4b4d-9adc-5aad3a2d6880")
-		)
-		(pin "1"
-			(uuid "07f1c96b-c636-4fe2-bed2-692077104d37")
-		)
-		(pin "0"
-			(uuid "cdf16bac-e366-40e4-a99e-55e18eb545c8")
-		)
-		(instances
-			(project "HelioMax"
-				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
-					(reference "SX1:8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ErgoDOX-rescue:SWITCH_PUSH")
-		(at 48.26 219.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00004ffe1290")
-		(property "Reference" "SX1:7"
-			(at 52.07 216.916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SX1:6"
-			(at 48.26 221.742 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a9afb90e-a941-4f65-9f9d-2581a2ad3a21")
-		)
-		(pin "1"
-			(uuid "82a4ebbe-4386-45ba-afef-c31489592021")
-		)
-		(pin "0"
-			(uuid "fc2a7f57-c57a-4058-b994-ee1fccff36ee")
-		)
-		(instances
-			(project "HelioMax"
-				(path "/b77f32e9-31fd-4736-83b7-42549ca943df"
-					(reference "SX1:7")
 					(unit 1)
 				)
 			)
@@ -10095,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 154.94 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10293,7 +9655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 48.26 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10458,7 +9820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 101.6 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11030,7 +10392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 66.04 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11338,7 +10700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 119.38 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11726,7 +11088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11813,7 +11175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoDOX pcb:MX_FLIP_DIODE"
+		(property "Footprint" "ErgoDOX pcb:MX_FLIP_CLEAN"
 			(at 83.82 135.89 0)
 			(hide yes)
 			(show_name no)
