@@ -76,7 +76,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "isolated_copper|151178222|72439076|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|151794656|155155455|3fe79320-7ce8-46dc-82b5-be7f99286788|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|152942622|91043476|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|158428655|62873584|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|165357573|148189615|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|167494471|152779891|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|175727134|151373584|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|183152522|151373584|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|184212730|61053584|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|205173322|73837975|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|224612730|71973584|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "isolated_copper|272934189|51701284|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -179,6 +228,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,6 +240,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -201,6 +252,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -556,8 +608,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -1022,7 +1074,7 @@
         "uuid": "b77f32e9-31fd-4736-83b7-42549ca943df"
       }
     ],
-    "used_designators": "#PWR1-3,A1,J1-11,SW5:14-20",
+    "used_designators": "#PWR1-3,A1,H1-16,J1-11,SW5:14-20",
     "variants": []
   },
   "sheets": [
