@@ -39,4 +39,5 @@ This project is open-source. Feel free to clone the repository and spin up custo
 
 ## Support the Project
 If you find this design useful or want to support future hardware iterations, consider buying me a coffee! Donations most welcome.
+
 [![PayPal](https://shields.io)](https://paypal.me/skagon)
