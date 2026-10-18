@@ -3,7 +3,7 @@ HelioMax is a modular extended variation of the classic split mechanical keyboar
 
 ## Project Architecture
 
-Unlike traditional monolithic keyboard layouts, **HelioMax** breaks the hardware matrix down into standalone, independent modules. This allows the modification of, or iteration upon individual sections of the keyboard independently without needing to re-fabricate the entire board.
+Unlike traditional monolithic keyboard layouts, **HelioMax** breaks the hardware matrix down into standalone, independent modules. This allows the modification of, or iteration upon, individual sections of the keyboard independently, without needing to re-fabricate the entire board.
 
 The second main feature of the HelioMax is the fact that it is designed to be controlled by a single **modified** Raspberry Pi Pico. Each half of the HelioMax consists of the central board, which includes all the communication lines to the controller board, as well as the connections to the thumb cluster and F-key row of its side. The entire half is using a 7×7 integrated matrix and each half is designed to be **independently scanned** by the Pico.
 
@@ -27,12 +27,16 @@ The repository includes a legacy 4-in-1 master layout blueprint at the root for 
 * **Telorum Belt (`/Telorum_Belt`)**  
   The function top row. Positioned specifically above the main matrix to the exact position F-keys should be. The connection is regular pins and can be lined up with mounting holes aligned. Recommending 5mm gap.
 * **Pollex Cluster (`/Pollex_Cluster`)**  
-  The specialized ergonomic thumb cluster extension, now able to be angled to leverage natural thumb position for primary keys, like Space, Enter, Layer control, or whatever suits your typing style.
+  The specialized ergonomic thumb cluster extension, now able to be angled to leverage natural thumb position for primary keys like Space, Enter, Layer control, or whatever suits your typing style.
 
 ## Manufacturing & Gerber Instructions
 
-Each directory operates as its own self-contained KiCad project to ensure local footprints and libraries load seamlessly. No particular instructions needed.
+Each directory operates as its own self-contained KiCad project. No particular instructions needed.
 
 ## Licensing & Contributions
 
-This project is open-source. Feel free to clone the repository and spin up custom branches to match your preferred physical desk ergonomics. Donations welcome.
+This project is open-source. Feel free to clone the repository and spin up custom branches to match your preferred physical desk ergonomics.
+
+## Support the Project
+If you find this design useful or want to support future hardware iterations, consider buying me a coffee! Donations most welcome.
+[![PayPal](https://shields.io)](https://paypal.me/skagon)

@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "10.0.7"
     },
-    "CreationDate": "2026-10-17T04:08:50+03:00"
+    "CreationDate": "2026-10-18T08:27:31+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "HelioMax",
       "GUID": "48656c69-6f4d-4617-982e-6b696361645f",
-      "Revision": "rev?"
+      "Revision": "1"
     },
     "Size": {
-      "X": 249.6488,
-      "Y": 163.2214
+      "X": 348.867,
+      "Y": 144.8257
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6002,
