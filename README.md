@@ -17,6 +17,8 @@ Requires desoldering the LED (D2) and replacing its current-limiting resistor (R
 
 Now, the GPIO range is uninterrupted and at our disposal.
 
+Moreover, the PCB itself needs some slight modification, namely filing down the backplane window, as I have made the choice to include full pads rather than castellated pads, in order to reduce manufacturing cost. The _offending_ pads are meant to connect the TP4 and TP5 of the Pico to the PCB.
+
 The repository includes a legacy 4-in-1 master layout blueprint at the root for spatial configuration, alongside four distinct, decoupled sub-projects representing the four "quadrants":
 
 ### The Four Quadrants
