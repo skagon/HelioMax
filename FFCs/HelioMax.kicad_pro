@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9906,
-          "height": 1.651,
-          "width": 1.651
+          "drill": 0.0,
+          "height": 1.55,
+          "width": 0.6
         },
         "silk_line_width": 0.6096,
         "silk_text_italic": false,
@@ -82,7 +82,7 @@
           ""
         ],
         [
-          "unconnected_items|116710001|160110001|F.Cu|4|db51d497-064d-4d41-83b8-5e1049514639|e3c3cf37-6d55-4e66-9184-d83cc3fe3391",
+          "unconnected_items|116710001|160110001|F.Cu|4|db51d497-064d-4d41-83b8-5e1049514639|c02dc6d4-6d5f-4f44-bdb9-4fdc096ea349",
           ""
         ],
         [
@@ -94,43 +94,11 @@
           ""
         ],
         [
-          "unconnected_items|132345591|68984800|F.Cu|4|00000000-0000-0000-0000-00004fff3d37|100d5bc2-7830-47e2-86d0-99d306a402b0",
+          "unconnected_items|133776163|53904199|F.Cu|4|6539485c-8170-41fb-ace1-c38c1ce09107|00000000-0000-0000-0000-00004fff3d37",
           ""
         ],
         [
-          "unconnected_items|133776163|53904199|F.Cu|4|6539485c-8170-41fb-ace1-c38c1ce09107|00000000-0000-0000-0000-00004fff3e70",
-          ""
-        ],
-        [
-          "unconnected_items|155457500|127617660|F.Cu|4|0fa1f81d-9335-4790-839d-0ccb41b77b8d|b7b9d218-1b9f-439d-9f7d-4b67e7c3f21c",
-          ""
-        ],
-        [
-          "unconnected_items|166679998|153660001|F.Cu|4|764f49f7-f86d-488a-a9de-31b84e367213|0aacc7db-1448-4846-b8f2-f3abc2ac78c0",
-          ""
-        ],
-        [
-          "unconnected_items|166680000|154659999|F.Cu|4|a442122b-d908-4b3e-8b0c-1d1660831d1c|0a5d893b-23b7-415f-aa04-f336c6868e58",
-          ""
-        ],
-        [
-          "unconnected_items|242040000|60660000|F.Cu|4|da93b6c3-b04a-4e76-ab43-96bb1426104a|bb731890-7dbe-471f-abac-5ee4050500ab",
-          ""
-        ],
-        [
-          "unconnected_items|247344124|60578101|F.Cu|4|00000000-0000-0000-0000-00004fff3e70|00000000-0000-0000-0000-00004fff3e70",
-          ""
-        ],
-        [
-          "unconnected_items|248981649|59764801|F.Cu|4|4b39ce7c-fa31-40be-8b62-751844d82195|909d6727-7318-485e-9609-35dcc1b492ad",
-          ""
-        ],
-        [
-          "unconnected_items|251490002|52090004|F.Cu|4|6eb3b30f-3c29-4c90-96ae-5725b2f45d77|8f70e27e-038f-43a8-8adc-8f38c37fe4d9",
-          ""
-        ],
-        [
-          "unconnected_items|251800000|62000000|F.Cu|4|78237e7d-86ca-4387-ac97-866623fb9fc1|624bdec6-86ae-4bf2-962b-9f0289fb284f",
+          "unconnected_items|155457500|127617660|F.Cu|4|00000000-0000-0000-0000-000050021901|b7b9d218-1b9f-439d-9f7d-4b67e7c3f21c",
           ""
         ],
         [
@@ -1086,7 +1054,7 @@
         "uuid": "b77f32e9-31fd-4736-83b7-42549ca943df"
       }
     ],
-    "used_designators": "#PWR1-16,A1,H1-16,J1-18,SW5:14-20",
+    "used_designators": "#PWR1-20,A1,C1-3,H1-16,J1-18,SW5:14-20",
     "variants": []
   },
   "sheets": [
