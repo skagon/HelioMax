@@ -11827,7 +11827,6 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x09")
 		(at 184.15 167.64 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11837,7 +11836,7 @@
 		(dnp no)
 		(uuid "01994e09-d852-4d37-99d2-ae4b8ed12039")
 		(property "Reference" "J8"
-			(at 186.69 168.9101 0)
+			(at 186.69 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11848,7 +11847,7 @@
 			)
 		)
 		(property "Value" "Conn_to_Pollex_Cluster"
-			(at 186.69 166.3701 0)
+			(at 186.69 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14414,6 +14413,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x09")
 		(at 168.91 226.06 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14421,10 +14421,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8bafadcc-ad6f-49cb-bf49-e7af0c1bbe9f")
 		(property "Reference" "J9"
-			(at 171.45 224.7899 0)
+			(at 171.45 227.3301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14435,7 +14434,7 @@
 			)
 		)
 		(property "Value" "Conn_Pollex_Cluster"
-			(at 171.45 227.3299 0)
+			(at 171.45 224.7901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
