@@ -3,9 +3,11 @@ HelioMax is a modular extended variation of the classic split mechanical keyboar
 
 ## Project Architecture
 
-Unlike traditional monolithic keyboard layouts, **HelioMax** breaks the hardware matrix down into standalone, independent modules. This allows the modification of, or iteration upon, individual sections of the keyboard independently, without needing to re-fabricate the entire board.
+Unlike traditional monolithic keyboard layouts, **HelioMax** breaks the hardware matrix down into standalone, independent modules. This allows the modification of, or iteration upon, individual sections of the keyboard independently, without needing to re-fabricate the entire board. Within the project you will find two main subdirectories, /FFCs and /Pin_Interconnects, containing the HelioMax PCB files and schematics for plain pin interconnects or FFCs (flexible flat cable) via SMD sockets. These are two variations on the subject, and you will see that the routing is **not** visually identical -- however, it is __functionally__ identical.
 
 The second main feature of the HelioMax is the fact that it is designed to be controlled by a single **modified** Raspberry Pi Pico. Each half of the HelioMax consists of the central board, which includes all the communication lines to the controller board, as well as the connections to the thumb cluster and F-key row of its side. The entire half is using a 7×7 integrated matrix and each half is designed to be **independently scanned** by the Pico.
+
+## The Pico
 
 The importance of the "modified" part becomes relevant at this point. The **unmodified** Pico only has **23** consecutive GPIO pins available (GPIO0 - GPIO22). However, two halves of the HelioMax require 2×(7+7)=28 GPIO pins. While this is still attainable using a unified row or column scanning, I really wanted the two halves to be independently scanned. The solution was somewhat easy: the Pico *does* have GPIO23-25 present, only assigned to things redundant for this project. With a soldering iron, a scalpel, and some patience, these pins can be liberated and put to use, the result being a contiguous GPIO space starting at GPIO0 and ending at GPIO28 -- and that leaves **one** extra GPIO to do with as we please.
 * **GPIO23**  
@@ -23,17 +25,17 @@ The repository includes a legacy 4-in-1 master layout blueprint at the root for 
 
 ### The Four Quadrants
 * **Praetor Enclave (`/Praetor_Enclave`)**  
-  The controller board. Houses the Raspberry Pi Pico micro-controller and connections to the two halves (Rows and Columns) on separate JST-SH sockets.
+  The controller board. Houses the Raspberry Pi Pico micro-controller and connections to the two halves (Rows and Columns) on four separate JST-SH sockets.
 * **Corpus Sedes (`/Corpus_Sedes`)**  
   The main mechanical switch matrix body. Serves as the primary foundation for your standard alpha-numeric typing layout.
 * **Telorum Belt (`/Telorum_Belt`)**  
-  The function top row. Positioned specifically above the main matrix to the exact position F-keys should be. The connection is regular pins and can be lined up with mounting holes aligned. Recommending 5mm gap.
+  The function top row. Positioned specifically above the main matrix (Corpus Sedes) to the exact position F-keys should be. The connection is regular pins or FFC and can be lined up with mounting holes aligned. Recommending 5mm vertical gap.
 * **Pollex Cluster (`/Pollex_Cluster`)**  
-  The specialized ergonomic thumb cluster extension, now able to be angled to leverage natural thumb position for primary keys like Space, Enter, Layer control, or whatever suits your typing style.
+  The specialized ergonomic thumb cluster extension, now able to be angled to leverage natural thumb position for primary keys like Space, Enter, Layer control, or whatever suits your typing style. Connects to Corpus Sedes either through pins or FFC.
 
 ## Manufacturing & Gerber Instructions
 
-Each directory operates as its own self-contained KiCad project. No particular instructions needed.
+Each directory operates as its own self-contained KiCad project. Choose your poison (FFC or pins) and go to the appropriate subdirectory. No particular instructions needed.
 
 ## Licensing & Contributions
 
